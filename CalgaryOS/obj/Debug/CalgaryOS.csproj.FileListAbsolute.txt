@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\bin\Debug\CalgaryOS.exe.config
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\bin\Debug\CalgaryOS.exe
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\bin\Debug\CalgaryOS.pdb
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csprojAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\App.g.cs
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS_MarkupCompile.cache
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS_MarkupCompile.lref
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\MainWindow.baml
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.g.resources
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.Properties.Resources.resources
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csproj.GenerateResource.cache
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.exe
+C:\Users\admin\Documents\GitHub\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.pdb
