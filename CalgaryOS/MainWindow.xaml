@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalgaryOS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="1000" Width="500">
+    <Grid Margin="0,0,2,0">
+        <ListBox HorizontalAlignment="Left" Height="799" Margin="30,49,0,0" VerticalAlignment="Top" Width="415" RenderTransformOrigin="-0.034,-1.394"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="30,853,0,0" VerticalAlignment="Top" Width="88" Height="106"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="123,853,0,0" VerticalAlignment="Top" Width="90" Height="106" RenderTransformOrigin="-0.038,0.465"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="242,853,0,0" VerticalAlignment="Top" Width="90" Height="106" RenderTransformOrigin="-0.038,0.465"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="337,853,0,0" VerticalAlignment="Top" Width="90" Height="106" RenderTransformOrigin="-0.038,0.465"/>
     </Grid>
 </Window>
