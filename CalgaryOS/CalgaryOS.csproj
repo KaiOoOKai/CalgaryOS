@@ -95,10 +95,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\directions_transit.jpg" />
+    <Resource Include="Images\directions_map.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\plain_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pings_map.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
