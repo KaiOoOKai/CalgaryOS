@@ -5,12 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalgaryOS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="500">
-    <Grid Margin="0,0,2,0">
-        <ListBox HorizontalAlignment="Left" Height="799" Margin="30,49,0,0" VerticalAlignment="Top" Width="415" RenderTransformOrigin="-0.034,-1.394"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="30,853,0,0" VerticalAlignment="Top" Width="88" Height="106"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="123,853,0,0" VerticalAlignment="Top" Width="90" Height="106" RenderTransformOrigin="-0.038,0.465"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="242,853,0,0" VerticalAlignment="Top" Width="90" Height="106" RenderTransformOrigin="-0.038,0.465"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="337,853,0,0" VerticalAlignment="Top" Width="90" Height="106" RenderTransformOrigin="-0.038,0.465"/>
+        Title="MainWindow" Height="889" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Hand">
+    <Grid Margin="0,0,-0.4,100.4">
+        <Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/plain_map.jpg"/>
+
+        <Button Content="Hot Spots" BorderThickness="2" HorizontalAlignment="Left" Height="99" Margin="-1,760,0,-100.2" VerticalAlignment="Top" Width="123" Background="#FFE71E1E" BorderBrush="#FF8E0B0B" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif"/>
+        <Button Content="Map" BorderThickness="2" HorizontalAlignment="Left" Height="99" Margin="122,760,0,-100.2" VerticalAlignment="Top" Width="124" Background="#FFE71E1E" BorderBrush="#FF8E0B0B" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif"/>
+        <Button Content="Transit" BorderThickness="2" HorizontalAlignment="Left" Height="99" Margin="246,760,0,-100.2" VerticalAlignment="Top" Width="125" Click="Button_Click" Background="#FFE71E1E" BorderBrush="#FF8E0B0B" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif"/>
+        <Button Content="City" BorderThickness="2" HorizontalAlignment="Left" Height="99" Margin="371,760,0,-100.2" VerticalAlignment="Top" Width="122" Background="#FFE71E1E" BorderBrush="#FF8E0B0B" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif"/>
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="356,700,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Search&#x9;&#x9;&#x9;"  HorizontalAlignment="Left" Height="50" Margin="20,700,0,0" VerticalAlignment="Top" Width="322" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="1" BorderThickness="3" FontFamily="Century Gothic">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="220,700,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="LOCAL EVENT" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40"/>
     </Grid>
 </Window>
