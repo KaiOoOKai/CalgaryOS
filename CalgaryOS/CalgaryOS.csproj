@@ -103,5 +103,9 @@
   <ItemGroup>
     <Resource Include="Images\pings_map.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\transit_directions.jpg" />
+    <Resource Include="Images\transit_plain.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
