@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/pings_map.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/transit_directions.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/transit_plain.jpg")]
 
 
