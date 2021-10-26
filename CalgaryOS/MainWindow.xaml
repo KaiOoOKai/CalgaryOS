@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CalgaryOS"
         mc:Ignorable="d"
         Title="MainWindow" Height="889" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Hand">
-    <Grid Margin="0,0,-0.4,0.2">
+    <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
 
         <!--Map Default-->
         <!--<Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/plain_map.jpg"/>
@@ -292,7 +292,7 @@
 
         <!--Transit Directions-->
 
-        <Image HorizontalAlignment="Left" Height="1836" Margin="-264,-225,-265,-752" VerticalAlignment="Top" Width="1023" Source="Images/transit_directions.jpg"/>
+        <!--<Image HorizontalAlignment="Left" Height="1836" Margin="-264,-225,-265,-752" VerticalAlignment="Top" Width="1023" Source="Images/transit_directions.jpg"/>
         
         <Button Content="Next Train" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
         <Button Content="Next Bus" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/> 
@@ -322,7 +322,63 @@
                     <Setter Property="CornerRadius" Value="25"/>
                 </Style>
             </Button.Resources>
-        </Button>
+        </Button>-->
+
+
+
+
+        <!--Language Home-->
+        <Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/plain_map.jpg" Opacity="0.75">
+            <Image.Effect>
+                <BlurEffect Radius="15"/>
+            </Image.Effect>
+        </Image>
+
+        <ComboBox Name="MyComboBox"
+            HorizontalAlignment="Center"
+            Background="#FFFF6551"
+            Text="Language" Margin="10,373,10,422.8" FontSize="48" FontFamily="Microsoft Sans Serif" FontWeight="Bold" SelectionChanged="MyComboBox_SelectionChanged" Width="474" VerticalAlignment="Center" Height="64" BorderThickness="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  BorderBrush="#FFA68282" IsReadOnly="True" IsDropDownOpen="True" IsEditable="True" >
+            <ComboBoxItem Content="English" HorizontalAlignment="Center" Width="248" Selected="ComboBoxItem_Selected" FontSize="36">
+                <ComboBoxItem.Effect>
+                    <DropShadowEffect Opacity="0.5"/>
+                </ComboBoxItem.Effect>
+            </ComboBoxItem>
+            <ComboBoxItem Content="Español" HorizontalAlignment="Center" Width="248" Selected="ComboBoxItem_Selected" FontSize="36">
+                <ComboBoxItem.Effect>
+                    <DropShadowEffect Opacity="0.5"/>
+                </ComboBoxItem.Effect>
+            </ComboBoxItem>
+            <ComboBoxItem Content="Français" HorizontalAlignment="Center" Width="248" Selected="ComboBoxItem_Selected" FontSize="36">
+                <ComboBoxItem.Effect>
+                    <DropShadowEffect Opacity="0.5"/>
+                </ComboBoxItem.Effect>
+            </ComboBoxItem>
+            <ComboBoxItem Content="普通话" HorizontalAlignment="Center" Width="248" Selected="ComboBoxItem_Selected" FontSize="36">
+                <ComboBoxItem.Effect>
+                    <DropShadowEffect Opacity="0.5"/>
+                </ComboBoxItem.Effect>
+            </ComboBoxItem>
+
+
+            <ComboBoxItem Content="हिंदी" HorizontalAlignment="Center" Width="248" Selected="ComboBoxItem_Selected" FontSize="36">
+                <ComboBoxItem.Effect>
+                    <DropShadowEffect Opacity="0.5"/>
+                </ComboBoxItem.Effect>
+            </ComboBoxItem>
+        </ComboBox>
+        <Image Margin="173,240,171,501.8" Source="Images/globe.png" Stretch="Fill"/>
+
+
+
+
+
+
+
+
+
+
+
+
     </Grid>
 </Window>
 
