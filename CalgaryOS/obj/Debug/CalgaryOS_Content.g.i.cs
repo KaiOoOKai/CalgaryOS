@@ -8,7 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/transit_directions.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/transit_plain.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/bus.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/calgary.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/filter.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/map.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/search.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/star.png")]
 
 

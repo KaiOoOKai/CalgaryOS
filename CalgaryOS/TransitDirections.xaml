@@ -17,18 +17,51 @@
         <Button Content="Next Train" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
         <Button Content="Next Bus" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
 
-        <Button Content="Hot Spots" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="-3,782,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="Map" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="121,782,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="Transit" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="244,782,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="City" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="368,782,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="348,551,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Recreation
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Bus.png" Height="62" Width="108" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Transit
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="244,757,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Map
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/calgary.png" Height="59" Width="108" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Services
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="348,512,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="25"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="University of Calgary Main Campus                  "  HorizontalAlignment="Left" Height="50" Margin="12,551,0,0" VerticalAlignment="Top" Width="322" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+        <Button HorizontalAlignment="Left" Height="50" Margin="12,512,0,0" VerticalAlignment="Top" Width="313" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <StackPanel Orientation="Horizontal">
+                <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
+                <TextBlock Text="University of Calgary Main..." Width="353" Height="23" />
+            </StackPanel>
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="25"/>
@@ -36,7 +69,7 @@
             </Button.Resources>
         </Button>
 
-        <Button Content="Take Red Line train to University station&#xD;&#xA;&#xD;&#xA;OR&#xD;&#xA;&#xD;&#xA;Take #x bus to University Station" HorizontalAlignment="Left" Height="165" Margin="13,613,0,0" VerticalAlignment="Top" Width="458" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="1,10,56,5" BorderThickness="3" Click="Button_Click">
+        <Button Content="Take Red Line train to University station&#xD;&#xA;&#xD;&#xA;OR&#xD;&#xA;&#xD;&#xA;Take #x bus to University Station" HorizontalAlignment="Left" Height="165" Margin="13,579,0,0" VerticalAlignment="Top" Width="458" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="1,10,56,5" BorderThickness="3" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="25"/>
