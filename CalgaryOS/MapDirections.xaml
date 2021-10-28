@@ -1,0 +1,90 @@
+﻿<Window x:Class="CalgaryOS.MapDirections"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalgaryOS"
+        mc:Ignorable="d"
+        Title="Map Directions" Height="889" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Hand">
+    <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
+        <!-- Map Directions -->
+        <Image HorizontalAlignment="Left" Height="1880" Margin="-379,-412,-421.4,-609" VerticalAlignment="Top" Width="1294" Source="Images/directions_map.jpg" RenderTransformOrigin="0.5,0.5"/>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Recreation
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Bus.png" Height="62" Width="108" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Transit
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="244,757,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Map
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/calgary.png" Height="59" Width="108" />
+                <TextBox Background="{x:Null}" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Services
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="348,541,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Switch to Transit"  HorizontalAlignment="Left" Height="50" Margin="13,485,0,0" VerticalAlignment="Top" Width="169" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="50" Margin="12,541,0,0" VerticalAlignment="Top" Width="313" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <StackPanel Orientation="Horizontal">
+                <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
+                <TextBlock Text="Search" Width="353" Height="23" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="212,541,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button Content="1. Go west on west street for 1.5 km&#xA;2. Go north 100m then turn left&#xA;3. Take the main road exit in 0.5 km&#xA;4. Take the main road exit in 4 km&#xD;&#xA;5. Destination will be on the left in 0.5 km&#xA;" HorizontalAlignment="Left" Height="142" Margin="13,601,0,0" VerticalAlignment="Top" Width="458" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
+
+
+
+    </Grid>
+</Window>
