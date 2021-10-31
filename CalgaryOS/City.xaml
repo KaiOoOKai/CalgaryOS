@@ -46,6 +46,7 @@
         <Label Content="311 Mobile App" HorizontalAlignment="Left" Margin="19,441,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
         <Label Content="City Apps" HorizontalAlignment="Left" Margin="10,390,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold"/>
         <Label Content="" HorizontalAlignment="Left" Margin="19,641,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="264,411,0,0" VerticalAlignment="Top" Width="74" Source="Images/qrcode.png"/>
 
     </Grid>
 </Window>
