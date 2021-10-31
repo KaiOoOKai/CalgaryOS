@@ -52,3 +52,8 @@ C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TransitDefa
 C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TransitDefault.baml
 C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\MapDirections.g.cs
 C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\MapDirections.baml
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csprojAssemblyReference.cache
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\Explore.g.cs
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\Explore.baml
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\City.g.cs
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\City.baml

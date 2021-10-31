@@ -1,0 +1,51 @@
+﻿<Window x:Class="CalgaryOS.City"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalgaryOS"
+        mc:Ignorable="d"
+    Title="City " Height="889" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Hand">
+    <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
+        <!-- City -->
+
+
+
+
+        <Button Content="Hot Spots" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="-3,782,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
+        <Button Content="Map" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="121,782,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
+        <Button Content="Transit" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="244,782,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
+        <Button Content="City" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="368,782,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
+
+        <Button Content="Hot Spots" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="-3,782,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF45A2FF" VerticalContentAlignment="Top" FontWeight="Bold"/>
+        <Button Content="Map" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="121,782,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" FontWeight="Bold" VerticalContentAlignment="Top"/>
+        <Button Content="Transit" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="244,782,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
+        <Button Content="City" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="368,782,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="371,721,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="City Information" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Click="Button_Click_3"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="35,811,0,0" VerticalAlignment="Top" Width="81" Source="Images/Star.png"/>
+        <Label Content="City Phone numbers" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452">
+
+        </Label>
+        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="100" Margin="10,105,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
+        <Label Content="City Information: 311" Margin="19,156,204,654.8" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+        <Label Content="" Margin="10,229,213,581.8" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="178" Margin="11,212,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
+            <Label Content="City Services" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="-3,-7,6,124"/>
+        </Border>
+        <Label Content="Police: 911" HorizontalAlignment="Left" Margin="20,258,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="422"/>
+        <Label Content="Social Resources: 211" HorizontalAlignment="Left" Margin="20,297,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Width="433"/>
+        <Label Content="Residence Information: 411" HorizontalAlignment="Left" Margin="20,336,0,0" VerticalAlignment="Top" Width="443" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="107" Margin="10,395,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
+        <Label Content="311 Mobile App" HorizontalAlignment="Left" Margin="19,441,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
+        <Label Content="City Apps" HorizontalAlignment="Left" Margin="10,390,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="19,641,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+
+    </Grid>
+</Window>
