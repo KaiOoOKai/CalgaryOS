@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\App.xaml
-101199169948
+11-1922403255
 
-15-171530371
+161504958278
 13-1505183044
-City.xaml;Explore.xaml;MainWindow.xaml;MapDefault.xaml;MapDirections.xaml;MapSearch.xaml;TransitDefault.xaml;TransitDirections.xaml;TransitSearch.xaml;UserControl1.xaml;
+City.xaml;Explore.xaml;MainWindow.xaml;MapDefault.xaml;MapDirections.xaml;MapFilters.xaml;MapSearch.xaml;TransitDefault.xaml;TransitDirections.xaml;TransitSearch.xaml;UserControl1.xaml;
 
-False
+True
 

@@ -75,3 +75,5 @@ C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDefault.g.cs
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDefault.baml
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearch.g.cs
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearch.baml
+C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapFilters.g.cs
+C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapFilters.baml

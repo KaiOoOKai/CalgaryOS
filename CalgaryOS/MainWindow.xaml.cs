@@ -63,6 +63,7 @@ namespace CalgaryOS
             MapDefault mdef = new MapDefault();
             MapDirections mdir = new MapDirections();
             MapSearch msea = new MapSearch();
+            MapFilters mfil = new MapFilters();
 
             TransitDefault tdef = new TransitDefault();
             TransitDirections tdir = new TransitDirections();
@@ -73,6 +74,7 @@ namespace CalgaryOS
             mdef.Show();
             mdir.Show();
             msea.Show();
+            mfil.Show();
             tdef.Show();
             tdir.Show();
             tsea.Show();

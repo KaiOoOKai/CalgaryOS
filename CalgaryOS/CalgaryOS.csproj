@@ -82,6 +82,9 @@
     <Compile Include="MapDirections.xaml.cs">
       <DependentUpon>MapDirections.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MapFilters.xaml.cs">
+      <DependentUpon>MapFilters.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapSearch.xaml.cs">
       <DependentUpon>MapSearch.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MapDirections.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MapFilters.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
