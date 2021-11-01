@@ -10,26 +10,47 @@
         <!-- City -->
 
 
-
-
-        <Button Content="Hot Spots" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="-3,782,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="Map" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="121,782,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="Transit" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="244,782,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="City" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="368,782,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-
-        <Button Content="Hot Spots" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="-3,782,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF45A2FF" VerticalContentAlignment="Top" FontWeight="Bold"/>
-        <Button Content="Map" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="121,782,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" FontWeight="Bold" VerticalContentAlignment="Top"/>
-        <Button Content="Transit" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="244,782,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="City" BorderThickness="3" HorizontalAlignment="Left" Height="77" Margin="368,782,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551"/>
-        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="371,721,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" TextChanged="TextBox_TextChanged" Text="Explore"/>
+            </StackPanel>
+        </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Bus.png" Height="62" Width="108" />
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Transit
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="244,757,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Map
+                </TextBox>
+            </StackPanel>
+        </Button>
+        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF">
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/calgary.png" Height="59" Width="108" />
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Services
+                </TextBox>
+            </StackPanel>
+        </Button>
+        
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="371,686,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="25"/>
                 </Style>
             </Button.Resources>
         </Button>
+        
+        
         <Button Content="City Information" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Click="Button_Click_3"/>
-        <Image HorizontalAlignment="Left" Height="39" Margin="35,811,0,0" VerticalAlignment="Top" Width="81" Source="Images/Star.png"/>
         <Label Content="City Phone numbers" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452">
 
         </Label>

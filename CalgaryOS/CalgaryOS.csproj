@@ -76,8 +76,14 @@
     <Compile Include="Explore.xaml.cs">
       <DependentUpon>Explore.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MapDefault.xaml.cs">
+      <DependentUpon>MapDefault.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapDirections.xaml.cs">
       <DependentUpon>MapDirections.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MapSearch.xaml.cs">
+      <DependentUpon>MapSearch.xaml</DependentUpon>
     </Compile>
     <Compile Include="TransitDefault.xaml.cs">
       <DependentUpon>TransitDefault.xaml</DependentUpon>
@@ -111,7 +117,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MapDefault.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MapDirections.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MapSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -191,6 +205,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\qrcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\Bus.png" />
+    <Resource Include="Icons\calgary.png" />
+    <Resource Include="Icons\filter.png" />
+    <Resource Include="Icons\Map.png" />
+    <Resource Include="Icons\search.png" />
+    <Resource Include="Icons\Star.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
