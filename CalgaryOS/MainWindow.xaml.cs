@@ -57,8 +57,25 @@ namespace CalgaryOS
 
         private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
         {
-            City win2 = new City();
-            win2.Show();
+            City cty = new City();
+            Explore exp = new Explore();
+
+            MapDefault mdef = new MapDefault();
+            MapDirections mdir = new MapDirections();
+            MapSearch msea = new MapSearch();
+
+            TransitDefault tdef = new TransitDefault();
+            TransitDirections tdir = new TransitDirections();
+            TransitSearch tsea = new TransitSearch();
+
+            cty.Show();
+            exp.Show();
+            mdef.Show();
+            mdir.Show();
+            msea.Show();
+            tdef.Show();
+            tdir.Show();
+            tsea.Show();
         }
     }
 }
