@@ -76,6 +76,9 @@
     <Compile Include="Explore.xaml.cs">
       <DependentUpon>Explore.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LanguageScreen.xaml.cs">
+      <DependentUpon>LanguageScreen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapDefault.xaml.cs">
       <DependentUpon>MapDefault.xaml</DependentUpon>
     </Compile>
@@ -88,6 +91,7 @@
     <Compile Include="MapSearch.xaml.cs">
       <DependentUpon>MapSearch.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Switcher.cs" />
     <Compile Include="TransitDefault.xaml.cs">
       <DependentUpon>TransitDefault.xaml</DependentUpon>
     </Compile>
@@ -97,14 +101,15 @@
     <Compile Include="TransitSearch.xaml.cs">
       <DependentUpon>TransitSearch.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.xaml.cs">
-      <DependentUpon>UserControl1.xaml</DependentUpon>
-    </Compile>
     <Page Include="City.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Explore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LanguageScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,10 +150,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TransitSearch.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControl1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

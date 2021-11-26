@@ -17,7 +17,7 @@ namespace CalgaryOS
     /// <summary>
     /// Interaction logic for City.xaml
     /// </summary>
-    public partial class City : Window
+    public partial class City : UserControl
     {
         public City()
         {
@@ -25,12 +25,13 @@ namespace CalgaryOS
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Switcher.Switch(new MapDefault());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            Switcher.SetState(true, new City());
+            Switcher.Switch(new LanguageScreen());
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -46,6 +47,16 @@ namespace CalgaryOS
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TransitDefault());
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Explore());
         }
     }
 }

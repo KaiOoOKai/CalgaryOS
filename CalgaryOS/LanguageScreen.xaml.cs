@@ -10,28 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CalgaryOS
 {
     /// <summary>
-    /// Interaction logic for Explore.xaml
+    /// Interaction logic for MainMenu.xaml
     /// </summary>
-    public partial class Explore : UserControl
+    public partial class LanguageScreen : UserControl
     {
-        public Explore()
+        public LanguageScreen()
         {
             InitializeComponent();
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MapDefault());
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Switcher.SetState(true, new Explore());
-            Switcher.Switch(new LanguageScreen());
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -39,14 +39,32 @@ namespace CalgaryOS
 
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Switcher.Switch(new TransitDefault());
+
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Switcher.Switch(new City());
+
+        }
+
+        private void MyComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+            if (Switcher.GetState())
+            {
+                Switcher.Switch(Switcher.GetPage());
+            }
+            else
+            {
+                Switcher.Switch(new MapDefault());
+            }
         }
     }
 }

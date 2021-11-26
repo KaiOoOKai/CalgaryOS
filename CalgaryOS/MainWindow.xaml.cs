@@ -20,64 +20,23 @@ namespace CalgaryOS
     /// </summary>
     public partial class MainWindow : Window
     {
+   
         public MainWindow()
         {
+
             InitializeComponent();
+            Switcher.pageSwitcher = this;
+           
+            Switcher.Switch(new LanguageScreen());
+          
+            
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Navigate(UserControl nextPage)
         {
-
+            this.Content = nextPage;
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void MyComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
-        {
-            City cty = new City();
-            Explore exp = new Explore();
-
-            MapDefault mdef = new MapDefault();
-            MapDirections mdir = new MapDirections();
-            MapSearch msea = new MapSearch();
-            MapFilters mfil = new MapFilters();
-
-            TransitDefault tdef = new TransitDefault();
-            TransitDirections tdir = new TransitDirections();
-            TransitSearch tsea = new TransitSearch();
-
-            cty.Show();
-            exp.Show();
-            mdef.Show();
-            mdir.Show();
-            msea.Show();
-            mfil.Show();
-            tdef.Show();
-            tdir.Show();
-            tsea.Show();
-        }
+        
     }
 }
