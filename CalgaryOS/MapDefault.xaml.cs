@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Diagnostics;
+using System.Windows.Threading;
 
 namespace CalgaryOS
 {
@@ -125,6 +126,17 @@ namespace CalgaryOS
                 hotspotLabel.Visibility = Visibility.Visible;
                 hotspotLabel.IsEnabled = true;
             }
+
+            DispatcherTimer DispatcherTimer = new DispatcherTimer();
+            
+            DispatcherTimer.Tick += new EventHandler(DispatcherTimer_Tick);
+            DispatcherTimer.Interval = new TimeSpan(0, 0, 5);
+            
+            DispatcherTimer.Start();
+        }
+        private void DispatcherTimer_Tick(object sender, EventArgs e)
+        {
+            languageButton.Content = "Nice";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
