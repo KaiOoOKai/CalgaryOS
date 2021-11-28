@@ -25,7 +25,7 @@ namespace CalgaryOS
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Switcher.Switch(new TransitDirections());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -62,6 +62,11 @@ namespace CalgaryOS
         {
             Switcher.SetState(true, new MapDirections());
             Switcher.Switch(new LanguageScreen());
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

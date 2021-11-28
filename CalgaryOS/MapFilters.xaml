@@ -8,8 +8,53 @@
         d:DesignHeight="889" d:DesignWidth="500">
     <Grid>
 
-        <Image HorizontalAlignment="Left" Height="759" Margin="-51,-26,-237,0" VerticalAlignment="Top" Width="782" Source="Images/pings_map.jpg"/>
+        <Canvas x:Name="Canvas1" Margin="-7,-10,7,9.8" Background="Transparent"  Grid.RowSpan="2" >
 
+
+            <Image
+                Width="809"
+                Height="1098"
+                Source="Images/googmap.png" Canvas.Top="-125" Canvas.Left="-166" />
+            <Image Source ="Icons/pointer_black.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="235" Canvas.Top="283" />
+
+            <Button x:Name="sightButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="152" Canvas.Top="551">
+                <Image Source="Icons/pointer.png"/>
+            </Button>
+            <Label x:Name="sightLabel" Content="Massive Blue Ring" HorizontalAlignment="Left" Margin="121,536,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+
+            <Button x:Name="restaurantButton"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54"  Background="Transparent" BorderBrush="Transparent" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="308" Canvas.Top="616">
+                <Image Source="Icons/pointer.png"/>
+            </Button>
+            <Label x:Name="restaurantLabel" Content="Shaqs Shake Shack" HorizontalAlignment="Left" Margin="270,598,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+
+            <Button x:Name="hotspotButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="350" Canvas.Top="350" Click="Button_Click_6">
+                <Image Source="Icons/pointer.png"/>
+            </Button>
+            <Label x:Name="hotspotLabel" Content="Stampede" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37" Canvas.Left="346" Canvas.Top="332"/>
+
+            <Button x:Name="eventButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="10" Canvas.Top="222">
+                <Image Source="Icons/pointer.png"/>
+            </Button>
+            <Label x:Name="eventLabel" Content="The Rocks Rap Tour" HorizontalAlignment="Left" Margin="-28,207,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+
+            <Button x:Name="hotelButton" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="366" Canvas.Top="236">
+                <Image Source="Icons/pointer.png"/>
+            </Button>
+            <Label x:Name="hotelLabel" Content="Comfort Inn" HorizontalAlignment="Left" Margin="351,221,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+
+
+            <Button x:Name="shoppingButton" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="166" Canvas.Top="53">
+                <Image Source="Icons/pointer.png"/>
+            </Button>
+            <Label x:Name="shoppingLabel" Content="Big Mall" HorizontalAlignment="Left" Margin="165,39,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform x:Name="translate" />
+                </TransformGroup>
+            </Canvas.RenderTransform>
+
+        </Canvas>
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
@@ -42,17 +87,17 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="345,303,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_6">
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="345,621,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_6">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="25"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button HorizontalAlignment="Left" Height="50" Margin="12,360,0,0" VerticalAlignment="Top" Width="451"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+        <Button HorizontalAlignment="Left" Height="50" Margin="12,622,0,0" VerticalAlignment="Top" Width="313"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif">
             <StackPanel Orientation="Horizontal">
                 <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
-                <TextBlock Text="University of Calgary" Width="353" Height="23" />
+                <TextBlock Text="Search" Width="353" Height="23" />
             </StackPanel>
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
@@ -60,7 +105,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="345,360,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_4">
+        <Button Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="205,622,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_2">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="25"/>
@@ -68,20 +113,14 @@
             </Button.Resources>
         </Button>
 
-        <Button Content="1 2 3 4 5 6 7 8 9 0 -&#xA;Q W E R T Y U I O P &#xA;   A S D F G H J K L &#xA;    Z X C V B N M &#xA;          SPACE " HorizontalAlignment="Center" Height="209" Margin="-3.2,548,-0.2,0" VerticalAlignment="Top" Width="497"   FontSize="30" TextOptions.TextHintingMode="Fixed" Background="#FFFF6551" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" BorderThickness="3" HorizontalContentAlignment="Left" Padding="50,1,1,1"/>
-        <Button Content="&lt;-" HorizontalAlignment="Left" Height="32" Margin="378,559,0,0" VerticalAlignment="Top" Width="99"   Background="#FFBDBDBD"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Height="32" Margin="378,599,0,0" VerticalAlignment="Top" Width="99"   Background="#FFBDBDBD"/>
-        <Button Content=" |&#xD;&#xA;\/" HorizontalAlignment="Left" Height="39" Margin="378,707,0,0" VerticalAlignment="Top" Width="92"   Background="#FFBDBDBD" Click="Button_Click_5"/>
-        <Button Content="Enter" HorizontalAlignment="Left" Height="32" Margin="378,639,0,0" VerticalAlignment="Top" Width="99"   Background="#FFBDBDBD"/>
+        <Rectangle Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="55" Margin="10,686,0,0" Stroke="#FF707070" VerticalAlignment="Top" Width="457" RadiusX="25" RadiusY="25" StrokeThickness="3"/>
+        <CheckBox x:Name="hotelCheck" Content="Hotels" HorizontalAlignment="Left" Height="23" Margin="35,695,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_1" Click="CheckBox_Click_1"/>
+        <CheckBox x:Name="eventCheck" Content="Events" HorizontalAlignment="Left" Height="23" Margin="35,718,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_3" Click="CheckBox_Click_3"/>
+        <CheckBox x:Name="restaurantCheck" Content="Restaurants" HorizontalAlignment="Left" Height="23" Margin="183,695,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked" Click="CheckBox_Click"/>
+        <CheckBox x:Name="sightCheck" Content="Sightseeing" HorizontalAlignment="Left" Height="23" Margin="183,718,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_4" Click="CheckBox_Click_4"/>
+        <CheckBox x:Name="shoppingCheck" Content="Shopping" HorizontalAlignment="Left" Height="23" Margin="319,695,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_2" Click="CheckBox_Click_2"/>
+        <CheckBox x:Name="hotspotCheck" Content="Hotspots" HorizontalAlignment="Left" Height="23" Margin="319,718,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_5" Click="CheckBox_Click_5"/>
 
-        <Rectangle Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="55" Margin="10,424,0,0" Stroke="#FF707070" VerticalAlignment="Top" Width="457" RadiusX="25" RadiusY="25" StrokeThickness="3"/>
-        <CheckBox x:Name="hotelCheck" Content="Hotels" HorizontalAlignment="Left" Height="23" Margin="35,433,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_1" Click="CheckBox_Click_1"/>
-        <CheckBox x:Name="eventCheck" Content="Events" HorizontalAlignment="Left" Height="23" Margin="35,456,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_3" Click="CheckBox_Click_3"/>
-        <CheckBox x:Name="restaurantCheck" Content="Restaurants" HorizontalAlignment="Left" Height="23" Margin="183,433,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked" Click="CheckBox_Click"/>
-        <CheckBox x:Name="sightCheck" Content="Sightseeing" HorizontalAlignment="Left" Height="23" Margin="183,456,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_4" Click="CheckBox_Click_4"/>
-        <CheckBox x:Name="shoppingCheck" Content="Shopping" HorizontalAlignment="Left" Height="23" Margin="319,433,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_2" Click="CheckBox_Click_2"/>
-        <CheckBox x:Name="hotspotCheck" Content="Hotspots" HorizontalAlignment="Left" Height="23" Margin="319,456,0,0" VerticalAlignment="Top" Width="148" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="3,-4,0,0" BorderThickness="2" IsChecked="True" Checked="CheckBox_Checked_5" Click="CheckBox_Click_5"/>
-   
 
 
     </Grid>

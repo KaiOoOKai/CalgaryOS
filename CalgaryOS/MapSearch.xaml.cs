@@ -59,5 +59,10 @@ namespace CalgaryOS
             Switcher.SetState(true, new MapSearch());
             Switcher.Switch(new LanguageScreen());
         }
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MapSearchAfter());
+        }
+
     }
 }

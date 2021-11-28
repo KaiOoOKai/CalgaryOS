@@ -26,7 +26,7 @@ namespace CalgaryOS
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Switcher.Switch(new Emergency());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

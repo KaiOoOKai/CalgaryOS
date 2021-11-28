@@ -18,7 +18,7 @@
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Explore"/>
             </StackPanel>
         </Button>
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click_3">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Bus.png" Height="62" Width="108" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -34,14 +34,16 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click_4">
+        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/calgary.png" Height="59" Width="108" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
                     Services
                 </TextBox>
             </StackPanel>
-        </Button><Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="371,700,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+        </Button>
+
+        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="350,700,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="25"/>
@@ -49,26 +51,32 @@
             </Button.Resources>
         </Button>
         <Button Content="Explore" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40"/>
-        <Label Content="Hot spots &amp; Restauraunts" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452">
+            <Label Content="Click Event For Directions" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452"/>
 
-        </Label>
-        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="225" Margin="10,105,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
-            <Label Content=" 1: Cheese cafe" Margin="-3,49,7,134" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+        <Label Content="Hot spots &amp; Restauraunts" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452" />
 
-        </Border>
-        <Label Content=" 2: Dunkaroo Fest" Margin="10,193,213,617.8" FontSize="26" FontFamily="Microsoft Sans Serif"/>
-        <Label Content=" 3: Chipotle" Margin="10,229,213,581.8" FontSize="26" FontFamily="Microsoft Sans Serif"/>
-        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="178" Margin="10,335,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
-            <Label Content="Vistas&#xD;&#xA;&#xD;&#xA;" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="-3,-7,6,124"/>
-        </Border>
-        <Label Content="1: Mountain" HorizontalAlignment="Left" Margin="19,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="146"/>
-        <Label Content="2: Water fountain" HorizontalAlignment="Left" Margin="19,420,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Width="216"/>
-        <Label Content="3: Blue ring" HorizontalAlignment="Left" Margin="19,459,0,0" VerticalAlignment="Top" Width="176" FontSize="26" FontFamily="Microsoft Sans Serif"/>
-        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="172" Margin="10,518,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
-        <Label Content="1: Stampede&#xD;&#xA;" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
-        <Label Content="Events" HorizontalAlignment="Left" Margin="10,513,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold"/>
-        <Label Content="2: Bowling Fest&#xD;&#xA;" HorizontalAlignment="Left" Margin="19,601,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Width="196" Height="40"/>
-        <Label Content="3: The Rock Rap Tour" HorizontalAlignment="Left" Margin="19,641,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif"/>
+        <Button Content="1: Mac Donnis" HorizontalAlignment="Left" Margin="19,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+        <Button Content="2: Dunkaroo Fest" HorizontalAlignment="Left" Margin="19,240,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+        <Button Content="3: Chipotle" HorizontalAlignment="Left" Margin="19,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+
+            <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="178" Margin="10,335,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
+                <Label Content="Vistas&#xD;&#xA;&#xD;&#xA;" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="-3,-7,6,124"/>
+            </Border>
+        <Button Content="1: Mountain" HorizontalAlignment="Left" Margin="19,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+        <Button Content="2: Water fountain" HorizontalAlignment="Left" Margin="19,420,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+        <Button Content="3: Blue ring" HorizontalAlignment="Left" Margin="19,459,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+
+            <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="172" Margin="10,518,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
+            <Label Content="1: Stampede&#xD;&#xA;" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
+
+        <Button Content="1: Stampede" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+        <Button Content="2: Bowling Fest" HorizontalAlignment="Left" Margin="19,601,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+            <Button Content="3: The Rock Rap Tour" HorizontalAlignment="Left" Margin="19,641,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+            <Label Content="Events" HorizontalAlignment="Left" Margin="10,513,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold"/>
+        
+
+
+
 
     </Grid>
 </UserControl>

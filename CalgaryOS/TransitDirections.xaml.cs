@@ -25,7 +25,7 @@ namespace CalgaryOS
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MapDefault());
+            Switcher.Switch(new MapDirections());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -52,6 +52,11 @@ namespace CalgaryOS
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new City());
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TransitSearchAfter());
         }
     }
 }

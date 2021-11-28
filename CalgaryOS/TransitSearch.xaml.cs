@@ -31,7 +31,8 @@ namespace CalgaryOS
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-           
+            Switcher.Switch(new TransitSearchAfter());
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)

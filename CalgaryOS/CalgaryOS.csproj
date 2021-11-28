@@ -73,6 +73,9 @@
     <Compile Include="City.xaml.cs">
       <DependentUpon>City.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EmergencyCall.xaml.cs">
+      <DependentUpon>EmergencyCall.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Filters.cs" />
     <Compile Include="Explore.xaml.cs">
       <DependentUpon>Explore.xaml</DependentUpon>
@@ -80,14 +83,23 @@
     <Compile Include="LanguageScreen.xaml.cs">
       <DependentUpon>LanguageScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Emergency.xaml.cs">
+      <DependentUpon>Emergency.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapDefault.xaml.cs">
       <DependentUpon>MapDefault.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MapDirectionsMCD.xaml.cs">
+      <DependentUpon>MapDirectionsMCD.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapDirections.xaml.cs">
       <DependentUpon>MapDirections.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapFilters.xaml.cs">
       <DependentUpon>MapFilters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MapSearchAfter.xaml.cs">
+      <DependentUpon>MapSearchAfter.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapSearch.xaml.cs">
       <DependentUpon>MapSearch.xaml</DependentUpon>
@@ -96,15 +108,25 @@
     <Compile Include="TransitDefault.xaml.cs">
       <DependentUpon>TransitDefault.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TransitDirectionsMCD.xaml.cs">
+      <DependentUpon>TransitDirectionsMCD.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TransitDirections.xaml.cs">
       <DependentUpon>TransitDirections.xaml</DependentUpon>
     </Compile>
     <Compile Include="TransitSearch.xaml.cs">
       <DependentUpon>TransitSearch.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TransitSearchAfter.xaml.cs">
+      <DependentUpon>TransitSearchAfter.xaml</DependentUpon>
+    </Compile>
     <Page Include="City.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EmergencyCall.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Explore.xaml">
       <SubType>Designer</SubType>
@@ -126,9 +148,17 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Emergency.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MapDefault.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MapDirectionsMCD.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MapDirections.xaml">
       <SubType>Designer</SubType>
@@ -138,6 +168,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MapSearchAfter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MapSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -146,11 +180,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TransitDirectionsMCD.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="TransitDirections.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TransitSearch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TransitSearchAfter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -228,6 +270,25 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\googmap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\googmap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\googmap_tdir.png" />
+    <Resource Include="Images\googmap_tran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\pointer_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\googmap_dir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\emergency.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\
+C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\
 CalgaryOS
 none
 false
 DEBUG;TRACE
-C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\App.xaml
-11-1787097342
+C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\App.xaml
+17159605672
 
-17-525594342
+23801277488
 13-1505183044
-City.xaml;Explore.xaml;LanguageScreen.xaml;MainWindow.xaml;MapDefault.xaml;MapDirections.xaml;MapFilters.xaml;MapSearch.xaml;TransitDefault.xaml;TransitDirections.xaml;TransitSearch.xaml;
+City.xaml;EmergencyCall.xaml;Explore.xaml;LanguageScreen.xaml;MainWindow.xaml;Emergency.xaml;MapDefault.xaml;MapDirectionsMCD.xaml;MapDirections.xaml;MapFilters.xaml;MapSearchAfter.xaml;MapSearch.xaml;TransitDefault.xaml;TransitDirectionsMCD.xaml;TransitDirections.xaml;TransitSearch.xaml;TransitSearchAfter.xaml;
 
 False
 
