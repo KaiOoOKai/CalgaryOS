@@ -109,6 +109,6 @@ C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csproj.Gene
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csproj.CoreCompileInputs.cache
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.exe
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.pdb
-C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csprojAssemblyReference.cache
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\LanguageScreen.g.cs
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\LanguageScreen.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csprojAssemblyReference.cache

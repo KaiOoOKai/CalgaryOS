@@ -73,6 +73,7 @@
     <Compile Include="City.xaml.cs">
       <DependentUpon>City.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Filters.cs" />
     <Compile Include="Explore.xaml.cs">
       <DependentUpon>Explore.xaml</DependentUpon>
     </Compile>
@@ -221,6 +222,12 @@
     <Resource Include="Icons\Map.png" />
     <Resource Include="Icons\search.png" />
     <Resource Include="Icons\Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\all_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\pointer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
