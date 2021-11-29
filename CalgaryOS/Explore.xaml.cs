@@ -74,11 +74,7 @@ namespace CalgaryOS
             DispatcherTimer.Stop();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new MapDefault());
-            DispatcherTimer_Stop();
-        }
+     
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -106,6 +102,29 @@ namespace CalgaryOS
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+       
+
+        private void Services(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new City());
+            DispatcherTimer_Stop();
+        }
+
+        private void Transit(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TransitDefault());
+            DispatcherTimer_Stop();
+        }
+        private void Taxi(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TaxiDefault());
+            DispatcherTimer_Stop();
+        }
+        private void Map(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MapDefault());
             DispatcherTimer_Stop();
         }
     }

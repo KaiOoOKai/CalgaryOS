@@ -123,6 +123,28 @@ namespace CalgaryOS
             Switcher.Switch(new MapSearchAfter());
             DispatcherTimer_Stop();
         }
+        private void Explore(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Explore());
+        }
+
+        private void Services(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new City());
+        }
+
+        private void Transit(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TransitDefault());
+        }
+        private void Taxi(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TaxiDefault());
+        }
+        private void Map(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MapDefault());
+        }
 
     }
 }

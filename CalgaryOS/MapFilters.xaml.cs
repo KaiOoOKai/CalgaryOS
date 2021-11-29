@@ -384,6 +384,70 @@ namespace CalgaryOS
             {
                 Filters.SetHotspot(true);
             }
+
+        }
+        private void Explore(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Explore());
+        }
+
+        private void Services(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new City());
+        }
+
+        private void Transit(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TransitDefault());
+        }
+        private void Taxi(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new TaxiDefault());
+        }
+        private void Map(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MapDefault());
+        }
+
+        private Point point;
+        private bool isDragged;
+        private void Canvas1_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Canvas1.CaptureMouse();
+            point = Mouse.GetPosition(this);
+            isDragged = true;
+
+        }
+
+        private void Canvas1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDragged == false)
+                return;
+            if (Canvas1.IsMouseCaptured)
+            {
+
+                var p = e.GetPosition(this);
+
+
+                if (Canvas1.TranslatePoint(new Point(0, 0), Grid1).X + (p.X - point.X) > -150 && Canvas1.TranslatePoint(new Point(0, 0), Grid1).X + (p.X - point.X) < 150)
+                {
+                    translate.X += (p.X - point.X);
+                }
+
+
+                if (Canvas1.TranslatePoint(new Point(0, 0), Grid1).Y + (p.Y - point.Y) > -150 && Canvas1.TranslatePoint(new Point(0, 0), Grid1).Y + (p.Y - point.Y) < 150)
+                {
+                    translate.Y += (p.Y - point.Y);
+                }
+
+
+                point = p;
+            }
+        }
+        private void Canvas1_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            Canvas1.ReleaseMouseCapture();
+            isDragged = false;
         }
     }
 }

@@ -105,6 +105,21 @@
       <DependentUpon>MapSearch.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
+    <Compile Include="TaxiDefault.xaml.cs">
+      <DependentUpon>TaxiDefault.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TaxiDirections.xaml.cs">
+      <DependentUpon>TaxiDirections.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TaxiOrdered.xaml.cs">
+      <DependentUpon>TaxiOrdered.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TaxiSearch.xaml.cs">
+      <DependentUpon>TaxiSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TaxiSearchAfter.xaml.cs">
+      <DependentUpon>TaxiSearchAfter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TransitDefault.xaml.cs">
       <DependentUpon>TransitDefault.xaml</DependentUpon>
     </Compile>
@@ -175,6 +190,26 @@
     <Page Include="MapSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TaxiDefault.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TaxiDirections.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TaxiOrdered.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TaxiSearch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TaxiSearchAfter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="TransitDefault.xaml">
       <SubType>Designer</SubType>
@@ -289,6 +324,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\emergency.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\taxi.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

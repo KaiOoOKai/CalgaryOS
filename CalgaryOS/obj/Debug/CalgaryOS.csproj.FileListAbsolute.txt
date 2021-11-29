@@ -136,3 +136,13 @@ C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsMCD.baml
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfter.baml
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TransitDirectionsMCD.baml
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TransitSearchAfter.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiDefault.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiDirections.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiOrdered.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearch.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearchAfter.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiDefault.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiDirections.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiOrdered.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearch.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearchAfter.baml

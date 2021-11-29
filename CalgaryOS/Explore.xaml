@@ -9,16 +9,15 @@
     <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
         <!-- Explore -->
 
-
-
-
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF"  Margin="0,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Explore"/>
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    Explore
+                </TextBox>
             </StackPanel>
         </Button>
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="99" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Transit" Margin="100,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Bus.png" Height="62" Width="108" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -26,7 +25,7 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="244,757,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -34,7 +33,7 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551">
+        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Services" Margin="398,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/calgary.png" Height="59" Width="108" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -42,6 +41,15 @@
                 </TextBox>
             </StackPanel>
         </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="99"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click = "Taxi" Margin="299,758,0,0" >
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Taxi.png" Height="86" Width="90" RenderTransformOrigin="0.511,0.757" Margin="0,0,0,-23" />
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Taxi"/>
+            </StackPanel>
+        </Button>
+
+
+
 
         <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" Margin="350,700,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
             <Button.Resources>
@@ -51,7 +59,7 @@
             </Button.Resources>
         </Button>
         <Button Content="Explore" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40"/>
-            <Label Content="Click Event For Directions" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452"/>
+        <Label Content="Click Event For Directions" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452"/>
 
         <Label Content="Hot spots &amp; Restauraunts" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452" />
 
@@ -59,21 +67,21 @@
         <Button Content="2: Dunkaroo Fest" HorizontalAlignment="Left" Margin="19,240,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
         <Button Content="3: Chipotle" HorizontalAlignment="Left" Margin="19,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
 
-            <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="178" Margin="10,335,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
-                <Label Content="Vistas&#xD;&#xA;&#xD;&#xA;" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="-3,-7,6,124"/>
-            </Border>
+        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="178" Margin="10,335,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
+            <Label Content="Vistas&#xD;&#xA;&#xD;&#xA;" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="-3,-7,6,124"/>
+        </Border>
         <Button Content="1: Mountain" HorizontalAlignment="Left" Margin="19,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
         <Button Content="2: Water fountain" HorizontalAlignment="Left" Margin="19,420,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
         <Button Content="3: Blue ring" HorizontalAlignment="Left" Margin="19,459,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
 
-            <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="172" Margin="10,518,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
-            <Label Content="1: Stampede&#xD;&#xA;" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
+        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="172" Margin="10,518,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
+        <Label Content="1: Stampede&#xD;&#xA;" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
 
         <Button Content="1: Stampede" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
         <Button Content="2: Bowling Fest" HorizontalAlignment="Left" Margin="19,601,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
-            <Button Content="3: The Rock Rap Tour" HorizontalAlignment="Left" Margin="19,641,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
-            <Label Content="Events" HorizontalAlignment="Left" Margin="10,513,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold"/>
-        
+        <Button Content="3: The Rock Rap Tour" HorizontalAlignment="Left" Margin="19,641,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left"/>
+        <Label Content="Events" HorizontalAlignment="Left" Margin="10,513,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold"/>
+
 
 
 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\App.xaml
-17159605672
+22-58598058
 
-23801277488
+28-440533424
 13-1505183044
-City.xaml;EmergencyCall.xaml;Explore.xaml;LanguageScreen.xaml;MainWindow.xaml;Emergency.xaml;MapDefault.xaml;MapDirectionsMCD.xaml;MapDirections.xaml;MapFilters.xaml;MapSearchAfter.xaml;MapSearch.xaml;TransitDefault.xaml;TransitDirectionsMCD.xaml;TransitDirections.xaml;TransitSearch.xaml;TransitSearchAfter.xaml;
+City.xaml;EmergencyCall.xaml;Explore.xaml;LanguageScreen.xaml;MainWindow.xaml;Emergency.xaml;MapDefault.xaml;MapDirectionsMCD.xaml;MapDirections.xaml;MapFilters.xaml;MapSearchAfter.xaml;MapSearch.xaml;TaxiDefault.xaml;TaxiDirections.xaml;TaxiOrdered.xaml;TaxiSearch.xaml;TaxiSearchAfter.xaml;TransitDefault.xaml;TransitDirectionsMCD.xaml;TransitDirections.xaml;TransitSearch.xaml;TransitSearchAfter.xaml;
 
 False
 

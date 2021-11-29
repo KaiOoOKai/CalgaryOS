@@ -11,11 +11,12 @@
 
         <Canvas x:Name="Canvas1" Margin="-7,-10,7,10" Background="Transparent" MouseDown="Canvas1_MouseDown" MouseUp="Canvas1_MouseUp" MouseMove="Canvas1_MouseMove" >
 
-
             <Image
                 Width="1164"
                 Height="1322"
                 Source="Images/googmap.png" Canvas.Top="-277" Canvas.Left="-366" />
+
+
 
             <Button x:Name="sightButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="152" Canvas.Top="551">
                 <Image Source="Icons/pointer.png"/>
@@ -60,7 +61,7 @@
 
         </Canvas>
 
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Explore" Margin="0,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -68,7 +69,7 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="121,757,0,0" VerticalAlignment="Top" Width="124" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click_2">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="99" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Transit" Margin="100,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Bus.png" Height="62" Width="108" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -76,7 +77,7 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="244,757,0,0" VerticalAlignment="Top" Width="125"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF">
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -84,7 +85,7 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="368,757,0,0" VerticalAlignment="Top" Width="122" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click_1">
+        <Button  BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Services" Margin="398,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/calgary.png" Height="59" Width="108" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -92,6 +93,16 @@
                 </TextBox>
             </StackPanel>
         </Button>
+        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="99"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click = "Taxi" Margin="299,758,0,0" >
+            <StackPanel>
+                <Image Opacity="1" Source="Icons/Taxi.png" Height="86" Width="90" RenderTransformOrigin="0.511,0.757" Margin="0,0,0,-23" />
+                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Taxi"/>
+            </StackPanel>
+        </Button>
+
+
+
+
         <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" Margin="348,697,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_5">
             <Button.Resources>
                 <Style TargetType="Border">
