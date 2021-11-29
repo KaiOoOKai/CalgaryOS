@@ -124,3 +124,15 @@ C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\EmergencyCall.g.cs
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\Emergency.g.cs
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\EmergencyCall.baml
 C:\Users\sksto\source\repos\CalgaryOS\CalgaryOS\obj\Debug\Emergency.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\EmergencyCall.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\Emergency.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsMCD.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfter.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TransitDirectionsMCD.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TransitSearchAfter.g.cs
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\EmergencyCall.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\Emergency.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsMCD.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfter.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TransitDirectionsMCD.baml
+C:\Users\Taylor\source\repos\CalgaryOS\CalgaryOS\obj\Debug\TransitSearchAfter.baml

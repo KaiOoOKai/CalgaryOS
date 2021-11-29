@@ -12,6 +12,7 @@ namespace CalgaryOS
         public static MainWindow pageSwitcher;
         static bool lastPage = false;
         static UserControl stored;
+        static int counter = 1;
         public static void Switch(UserControl newPage)
         {
             pageSwitcher.Navigate(newPage);
@@ -33,7 +34,21 @@ namespace CalgaryOS
             return stored;
         }
 
-        
+        public static int GetCounter()
+        {
+            return counter;
+        }
+        public static void SetCounter()
+        {
+            if (counter == 5)
+            {
+                counter = 1;
+            }
+            else
+            {
+                counter += 1;
+            }
+        }
+
     }
 }
-    
