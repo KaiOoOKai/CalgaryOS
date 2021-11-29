@@ -22,6 +22,109 @@ namespace CalgaryOS
         public MapFilters()
         {
             InitializeComponent();
+
+            InitializeComponent();
+            if (Filters.GetHotel() == false)
+            {
+                hotelButton.Visibility = Visibility.Hidden;
+                hotelButton.IsEnabled = false;
+
+                hotelLabel.Visibility = Visibility.Hidden;
+                hotelLabel.IsEnabled = false;
+            }
+            else
+            {
+                hotelButton.Visibility = Visibility.Visible;
+                hotelButton.IsEnabled = true;
+
+                hotelLabel.Visibility = Visibility.Visible;
+                hotelLabel.IsEnabled = true;
+            }
+
+            if (Filters.GetShopping() == false)
+            {
+                shoppingButton.Visibility = Visibility.Hidden;
+                shoppingButton.IsEnabled = false;
+
+                shoppingLabel.Visibility = Visibility.Hidden;
+                shoppingLabel.IsEnabled = false;
+            }
+            else
+            {
+                shoppingButton.Visibility = Visibility.Visible;
+                shoppingButton.IsEnabled = true;
+
+                shoppingLabel.Visibility = Visibility.Visible;
+                shoppingLabel.IsEnabled = true;
+            }
+
+            if (Filters.GetEvent() == false)
+            {
+                eventButton.Visibility = Visibility.Hidden;
+                eventButton.IsEnabled = false;
+
+                eventLabel.Visibility = Visibility.Hidden;
+                eventLabel.IsEnabled = false;
+            }
+            else
+            {
+                eventButton.Visibility = Visibility.Visible;
+                eventButton.IsEnabled = true;
+
+                eventLabel.Visibility = Visibility.Visible;
+                eventLabel.IsEnabled = true;
+            }
+
+            if (Filters.GetSight() == false)
+            {
+                sightButton.Visibility = Visibility.Hidden;
+                sightButton.IsEnabled = false;
+
+                sightLabel.Visibility = Visibility.Hidden;
+                sightLabel.IsEnabled = false;
+            }
+            else
+            {
+                sightButton.Visibility = Visibility.Visible;
+                sightButton.IsEnabled = true;
+
+                sightLabel.Visibility = Visibility.Visible;
+                sightLabel.IsEnabled = true;
+            }
+
+            if (Filters.GetRestaurant() == false)
+            {
+                restaurantButton.Visibility = Visibility.Hidden;
+                restaurantButton.IsEnabled = false;
+
+                restaurantLabel.Visibility = Visibility.Hidden;
+                restaurantLabel.IsEnabled = false;
+            }
+            else
+            {
+                restaurantButton.Visibility = Visibility.Visible;
+                restaurantButton.IsEnabled = true;
+
+                restaurantLabel.Visibility = Visibility.Visible;
+                restaurantLabel.IsEnabled = true;
+            }
+
+            if (Filters.GetHotspot() == false)
+            {
+                hotspotButton.Visibility = Visibility.Hidden;
+                hotspotButton.IsEnabled = false;
+
+                hotspotLabel.Visibility = Visibility.Hidden;
+                hotspotLabel.IsEnabled = false;
+            }
+            else
+            {
+                hotspotButton.Visibility = Visibility.Visible;
+                hotspotButton.IsEnabled = true;
+
+                hotspotLabel.Visibility = Visibility.Visible;
+                hotspotLabel.IsEnabled = true;
+            }
             if (Filters.GetHotel())
             {
                 hotelCheck.IsChecked = true;

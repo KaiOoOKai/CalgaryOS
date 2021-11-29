@@ -9,13 +9,25 @@
     <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
 
 
-
         <!--Language Home-->
-        <Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/plain_map.jpg" Opacity="0.75">
+        <Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/googmap.png" Opacity="0.75">
             <Image.Effect>
                 <BlurEffect Radius="15"/>
             </Image.Effect>
         </Image>
+
+        <Button Click="Button_Click" HorizontalAlignment="Left" Height="50" Margin="181,680,0,-280.6" VerticalAlignment="Top" Width="155"   RenderTransformOrigin="0.322,0.474" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Background="Red" Foreground="White" BorderBrush="Black">
+            <StackPanel Orientation="Horizontal">
+                <Image  Source="Icons/emergency.png" Height="30" Width="40" />
+                <TextBlock Text="Emergency" Width="353" Height="23" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
 
         <ComboBox Name="MyComboBox"
             HorizontalAlignment="Center"

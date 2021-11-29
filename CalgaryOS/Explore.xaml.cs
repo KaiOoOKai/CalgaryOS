@@ -48,5 +48,9 @@ namespace CalgaryOS
         {
             Switcher.Switch(new City());
         }
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MapDirectionsMCD());
+        }
     }
 }

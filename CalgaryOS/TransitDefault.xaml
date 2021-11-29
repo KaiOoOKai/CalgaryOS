@@ -9,10 +9,11 @@
     <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
         <!--Transit - default -->
 
-        <Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/transit_plain.jpg"/>
+        <Image HorizontalAlignment="Left" Height="1199" Margin="-157,-116,-201,-324.2" VerticalAlignment="Top" Width="852" Source="Images/googmap_tran.png"/>
+        <Canvas x:Name="Canvas1" Background="Transparent" >
 
 
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click_3">
+            <Button BorderThickness="3" HorizontalAlignment="Left" Height="102" Margin="-3,757,0,0" VerticalAlignment="Top" Width="125" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Button_Click_3">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
                 <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
@@ -64,7 +65,7 @@
         </Button>
         <Button Content="Train (direction) in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
         <Button Content="Bus#x in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
-
-
+            <Image Source ="Icons/pointer_black.png" Height="37" Canvas.Left="271" Canvas.Top="305" />
+        </Canvas>
     </Grid>
 </UserControl>
