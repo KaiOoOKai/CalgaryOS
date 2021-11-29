@@ -45,7 +45,7 @@
                     </TextBox>
                 </StackPanel>
             </Button>
-            <Button Content="Language"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_7" Canvas.Left="348" Canvas.Top="485">
+            <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_7" Canvas.Left="348" Canvas.Top="485">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="25"/>

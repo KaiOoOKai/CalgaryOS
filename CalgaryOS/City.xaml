@@ -41,7 +41,7 @@
             </StackPanel>
         </Button>
         
-        <Button Content="Language"  HorizontalAlignment="Left" Height="50" Margin="371,686,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+        <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" Margin="371,686,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="25"/>

@@ -21,10 +21,31 @@ namespace CalgaryOS
     /// </summary>
     public partial class MapDefault : UserControl
     {
-      
+        DispatcherTimer DispatcherTimer = new DispatcherTimer();
         public MapDefault()
         {
             InitializeComponent();
+            DispatcherTimer.Tick += new EventHandler(DispatcherTimer_Tick);
+            DispatcherTimer.Interval = new TimeSpan(0, 0, 3);
+            switch (Switcher.GetCounter())
+            {
+                case 1:
+                    languageButton.Content = "English";
+                    break;
+                case 2:
+                    languageButton.Content = "Español";
+                    break;
+                case 3:
+                    languageButton.Content = "Français";
+                    break;
+                case 4:
+                    languageButton.Content = "普通话";
+                    break;
+                case 5:
+                    languageButton.Content = "हिंदी";
+                    break;
+            }
+            DispatcherTimer.Start();
             if (Filters.GetHotel() == false) 
             {
                 hotelButton.Visibility = Visibility.Hidden;
@@ -127,47 +148,73 @@ namespace CalgaryOS
                 hotspotLabel.IsEnabled = true;
             }
 
-            DispatcherTimer DispatcherTimer = new DispatcherTimer();
             
-            DispatcherTimer.Tick += new EventHandler(DispatcherTimer_Tick);
-            DispatcherTimer.Interval = new TimeSpan(0, 0, 5);
+
             
-            DispatcherTimer.Start();
         }
         private void DispatcherTimer_Tick(object sender, EventArgs e)
         {
-            languageButton.Content = "Nice";
+
+            switch (Switcher.GetCounter())
+            {
+                case 1:
+                    languageButton.Content = "English";
+                    break;
+                case 2:
+                    languageButton.Content = "Español";
+                    break;
+                case 3:
+                    languageButton.Content = "Français";
+                    break;
+                case 4:
+                    languageButton.Content = "普通话";
+                    break;
+                case 5:
+                    languageButton.Content = "हिंदी";
+                    break;
+            }
+            Switcher.SetCounter();
+        }
+        private void DispatcherTimer_Stop()
+        {
+            DispatcherTimer.Stop();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Explore());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new City());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new TransitDefault());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapSearch());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapFilters());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             Switcher.SetState(true, new MapDefault());
             Switcher.Switch(new LanguageScreen());
+            DispatcherTimer_Stop();
         }
       
         private Point point;

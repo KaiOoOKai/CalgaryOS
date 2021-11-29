@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.Windows.Threading;
 namespace CalgaryOS
 {
     /// <summary>
@@ -19,9 +19,10 @@ namespace CalgaryOS
     /// </summary>
     public partial class MapFilters : UserControl
     {
+        DispatcherTimer DispatcherTimer = new DispatcherTimer();
         public MapFilters()
         {
-            InitializeComponent();
+      
 
             InitializeComponent();
             if (Filters.GetHotel() == false)
@@ -178,42 +179,102 @@ namespace CalgaryOS
             {
                 restaurantCheck.IsChecked = false;
             }
+            DispatcherTimer.Tick += new EventHandler(DispatcherTimer_Tick);
+            DispatcherTimer.Interval = new TimeSpan(0, 0, 3);
+            switch (Switcher.GetCounter())
+            {
+                case 1:
+                    languageButton.Content = "English";
+                    break;
+                case 2:
+                    languageButton.Content = "Español";
+                    break;
+                case 3:
+                    languageButton.Content = "Français";
+                    break;
+                case 4:
+                    languageButton.Content = "普通话";
+                    break;
+                case 5:
+                    languageButton.Content = "हिंदी";
+                    break;
+            }
+            DispatcherTimer.Start();
+        }
+        private void DispatcherTimer_Tick(object sender, EventArgs e)
+        {
+
+            switch (Switcher.GetCounter())
+            {
+                case 1:
+                    languageButton.Content = "English";
+                    break;
+                case 2:
+                    languageButton.Content = "Español";
+                    break;
+                case 3:
+                    languageButton.Content = "Français";
+                    break;
+                case 4:
+                    languageButton.Content = "普通话";
+                    break;
+                case 5:
+                    languageButton.Content = "हिंदी";
+                    break;
+            }
+            Switcher.SetCounter();
+        }
+        private void DispatcherTimer_Stop()
+        {
+            DispatcherTimer.Stop();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Explore());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new TransitDefault());
+            DispatcherTimer_Stop();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapDefault());
+            DispatcherTimer_Stop();
+
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new City());
+            DispatcherTimer_Stop();
+
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapSearch());
+            DispatcherTimer_Stop();
+
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapDefault());
+            DispatcherTimer_Stop();
+
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
             Switcher.SetState(true, new MapFilters());
             Switcher.Switch(new LanguageScreen());
+            DispatcherTimer_Stop();
+
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
