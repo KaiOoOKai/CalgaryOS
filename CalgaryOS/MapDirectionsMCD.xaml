@@ -40,13 +40,6 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Filters"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"  RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="348" Canvas.Top="541">
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="25"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
 
             <Button Content="1. Go west on west street for 1.5 km&#xA;2. Go north 100m then turn left&#xA;3. Take the main road exit in 0.5 km&#xA;4. Take the main road exit in 4 km&#xD;&#xA;5. Destination will be on the left in 0.5 km&#xA;" HorizontalAlignment="Left" Height="142" Margin="13,601,0,0" VerticalAlignment="Top" Width="458" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3"  >
                 <Button.Resources>

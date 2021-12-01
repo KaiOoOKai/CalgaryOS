@@ -262,12 +262,7 @@ namespace CalgaryOS
 
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new MapDefault());
-            DispatcherTimer_Stop();
-
-        }
+     
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
@@ -284,7 +279,7 @@ namespace CalgaryOS
 
         private void CheckBox_Checked_1(object sender, RoutedEventArgs e)
         {
-         
+
         }
 
         private void CheckBox_Checked_2(object sender, RoutedEventArgs e)
@@ -307,82 +302,141 @@ namespace CalgaryOS
             
         }
 
-        private void CheckBox_Click(object sender, RoutedEventArgs e)
+        private void restaurantCheckBox(object sender, RoutedEventArgs e)
         {
             if (Filters.GetRestaurant())
             {
                 Filters.SetRestaurant(false);
+                restaurantButton.Visibility = Visibility.Hidden;
+                restaurantButton.IsEnabled = false;
 
+                restaurantLabel.Visibility = Visibility.Hidden;
+                restaurantLabel.IsEnabled = false;
             }
             else
             {
                 Filters.SetRestaurant(true);
+                restaurantButton.Visibility = Visibility.Visible;
+                restaurantButton.IsEnabled = true;
+
+                restaurantLabel.Visibility = Visibility.Visible;
+                restaurantLabel.IsEnabled = true;
             }
+
+
         }
 
-        private void CheckBox_Click_2(object sender, RoutedEventArgs e)
+        private void shoppingCheckBox(object sender, RoutedEventArgs e)
         {
             if (Filters.GetShopping())
             {
                 Filters.SetShopping(false);
+                shoppingButton.Visibility = Visibility.Hidden;
+                shoppingButton.IsEnabled = false;
 
+                shoppingLabel.Visibility = Visibility.Hidden;
+                shoppingLabel.IsEnabled = false;
             }
             else
             {
                 Filters.SetShopping(true);
+                shoppingButton.Visibility = Visibility.Visible;
+                shoppingButton.IsEnabled = true;
+
+                shoppingLabel.Visibility = Visibility.Visible;
+                shoppingLabel.IsEnabled = true;
             }
         }
 
-        private void CheckBox_Click_1(object sender, RoutedEventArgs e)
+        private void hotelCheckBox(object sender, RoutedEventArgs e)
         {
             if (Filters.GetHotel())
             {
                 Filters.SetHotel(false);
+                hotelButton.Visibility = Visibility.Hidden;
+                hotelButton.IsEnabled = false;
+
+                hotelLabel.Visibility = Visibility.Hidden;
+                hotelLabel.IsEnabled = false;
+
 
             }
             else
             {
                 Filters.SetHotel(true);
+                hotelButton.Visibility = Visibility.Visible;
+                hotelButton.IsEnabled = true;
+
+                hotelLabel.Visibility = Visibility.Visible;
+                hotelLabel.IsEnabled = true;
+           
             }
         }
 
-        private void CheckBox_Click_3(object sender, RoutedEventArgs e)
+        private void eventCheckBox(object sender, RoutedEventArgs e)
         {
             if (Filters.GetEvent())
             {
                 Filters.SetEvent(false);
+                eventButton.Visibility = Visibility.Hidden;
+                eventButton.IsEnabled = false;
 
+                eventLabel.Visibility = Visibility.Hidden;
+                eventLabel.IsEnabled = false;
             }
             else
             {
                 Filters.SetEvent(true);
+                eventButton.Visibility = Visibility.Visible;
+                eventButton.IsEnabled = true;
+
+                eventLabel.Visibility = Visibility.Visible;
+                eventLabel.IsEnabled = true;
             }
         }
 
-        private void CheckBox_Click_4(object sender, RoutedEventArgs e)
+        private void sightCheckBox(object sender, RoutedEventArgs e)
         {
 
             if (Filters.GetSight())
             {
                 Filters.SetSight(false);
+                sightButton.Visibility = Visibility.Hidden;
+                sightButton.IsEnabled = false;
 
+                sightLabel.Visibility = Visibility.Hidden;
+                sightLabel.IsEnabled = false;
             }
             else
             {
                 Filters.SetSight(true);
+                sightButton.Visibility = Visibility.Visible;
+                sightButton.IsEnabled = true;
+
+                sightLabel.Visibility = Visibility.Visible;
+                sightLabel.IsEnabled = true;
             }
         }
 
-        private void CheckBox_Click_5(object sender, RoutedEventArgs e)
+        private void hotspotCheckBox(object sender, RoutedEventArgs e)
         {
             if (Filters.GetHotspot())
             {
                 Filters.SetHotspot(false);
+                hotspotButton.Visibility = Visibility.Hidden;
+                hotspotButton.IsEnabled = false;
 
+                hotspotLabel.Visibility = Visibility.Hidden;
+                hotspotLabel.IsEnabled = false;
             }
             else
             {
                 Filters.SetHotspot(true);
+                hotspotButton.Visibility = Visibility.Visible;
+                hotspotButton.IsEnabled = true;
+
+                hotspotLabel.Visibility = Visibility.Visible;
+                hotspotLabel.IsEnabled = true;
             }
 
         }
@@ -407,6 +461,7 @@ namespace CalgaryOS
         private void Map(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapDefault());
+            DispatcherTimer_Stop();
         }
 
         private Point point;

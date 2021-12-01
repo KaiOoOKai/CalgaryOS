@@ -328,5 +328,8 @@
   <ItemGroup>
     <Resource Include="Icons\taxi.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\exploreBackground.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

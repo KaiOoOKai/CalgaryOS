@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:CalgaryOS"
         mc:Ignorable="d"
         Title="MainWindow" Height="889" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Hand">
-    
+   
+
 </Window>
 
 

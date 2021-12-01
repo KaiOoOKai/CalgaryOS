@@ -19,11 +19,11 @@
             <Image Source ="Icons/pointer.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="111" Canvas.Top="219" />
 
 
-            <Button Content="Train (direction) in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
-            <Button Content="Bus#x in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
+            <Button Content="Tuscany Train in 5 minutes" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
+            <Button Content="Bus#64 in 45 mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
 
 
-            
+
 
             <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" Margin="348,515,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
                 <Button.Resources>
@@ -44,7 +44,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button Content="Take Red Line train to University station&#xD;&#xA;&#xD;&#xA;OR&#xD;&#xA;&#xD;&#xA;Take #x bus to University Station" HorizontalAlignment="Left" Height="165" Margin="13,577,0,0" VerticalAlignment="Top" Width="458" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="1,10,56,5" BorderThickness="3">
+            <Button Content="Take Tuscany train to University station&#xD;&#xA;&#xD;&#xA;OR&#xD;&#xA;&#xD;&#xA;Take #64 bus to University Station" HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="470" FontFamily="Microsoft Sans Serif" FontSize="18" Padding="1,10,56,5" BorderThickness="3" Canvas.Left="13" Canvas.Top="577">
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="25"/>
