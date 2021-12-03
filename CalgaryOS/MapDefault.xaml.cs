@@ -286,5 +286,11 @@ namespace CalgaryOS
         {
 
         }
+
+        private void localButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Explore());
+            DispatcherTimer_Stop();
+        }
     }
 }

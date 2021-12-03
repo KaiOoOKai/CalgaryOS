@@ -128,7 +128,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="LOCAL EVENT" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40">
+        <Button x:Name="localButton" Content="LOCAL EVENT" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Click="localButton_Click">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="25" RenderingBias="Quality"/>
             </Button.Effect>
