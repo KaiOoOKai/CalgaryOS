@@ -56,14 +56,13 @@ namespace CalgaryOS
 
         private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
         {
-
-            if (Switcher.GetState())
-            {
-                Switcher.Switch(Switcher.GetPage());
-            }
-            else
-            {
-                Switcher.Switch(new MapDefault());
+            switch (sender.ToString().Split(new string[] { ": " }, StringSplitOptions.None).Last()) {
+                case "English":
+                    Switcher.Switch(new MapDefault());
+                    break;
+                case "Français":
+                    Switcher.Switch(new MapDefaultFrench());
+                    break;
             }
         }
     }

@@ -86,6 +86,9 @@
     <Compile Include="Emergency.xaml.cs">
       <DependentUpon>Emergency.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MapDefaultFrench.xaml.cs">
+      <DependentUpon>MapDefaultFrench.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapDefault.xaml.cs">
       <DependentUpon>MapDefault.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Emergency.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MapDefaultFrench.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
