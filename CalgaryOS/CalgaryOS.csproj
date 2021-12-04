@@ -76,6 +76,9 @@
     <Compile Include="EmergencyCall.xaml.cs">
       <DependentUpon>EmergencyCall.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExploreFrench.xaml.cs">
+      <DependentUpon>ExploreFrench.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Filters.cs" />
     <Compile Include="Explore.xaml.cs">
       <DependentUpon>Explore.xaml</DependentUpon>
@@ -155,6 +158,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EmergencyCall.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExploreFrench.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

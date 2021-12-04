@@ -213,3 +213,5 @@ C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfterFrench.g
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfterFrench.baml
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsFrench.g.cs
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsFrench.baml
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\ExploreFrench.g.cs
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\ExploreFrench.baml
