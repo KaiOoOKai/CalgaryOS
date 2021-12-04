@@ -21,12 +21,12 @@
             <Button x:Name="sightButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="152" Canvas.Top="551">
                 <Image Source="Icons/pointer.png"/>
             </Button>
-            <Label x:Name="sightLabel" Content="Massive Blue Ring" HorizontalAlignment="Left" Margin="121,536,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+            <Label x:Name="sightLabel" Content="Bague Bleue Massive" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37" RenderTransformOrigin="0.493,0.514" Canvas.Left="113" Canvas.Top="534"/>
 
             <Button x:Name="restaurantButton"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54"  Background="Transparent" BorderBrush="Transparent" RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="308" Canvas.Top="616">
                 <Image Source="Icons/pointer.png"/>
             </Button>
-            <Label x:Name="restaurantLabel" Content="Shaqs Shake Shack" HorizontalAlignment="Left" Margin="270,598,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+            <Label x:Name="restaurantLabel" Content="Shaq's Shake Shack" HorizontalAlignment="Left" Margin="270,598,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
 
             <Button x:Name="hotspotButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="350" Canvas.Top="350" Click="Button_Click_6">
                 <Image Source="Icons/pointer.png"/>
@@ -36,7 +36,7 @@
             <Button x:Name="eventButton" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="10" Canvas.Top="222">
                 <Image Source="Icons/pointer.png"/>
             </Button>
-            <Label x:Name="eventLabel" Content="The Rocks Rap Tour" HorizontalAlignment="Left" Margin="-28,207,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+            <Label x:Name="eventLabel" Content="La Tournée rap de The Rock" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37" RenderTransformOrigin="0.389,0.541" Canvas.Left="-50" Canvas.Top="205"/>
 
             <Button x:Name="hotelButton" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="366" Canvas.Top="236">
                 <Image Source="Icons/pointer.png"/>
@@ -47,7 +47,7 @@
             <Button x:Name="shoppingButton" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="166" Canvas.Top="53">
                 <Image Source="Icons/pointer.png"/>
             </Button>
-            <Label x:Name="shoppingLabel" Content="Big Mall" HorizontalAlignment="Left" Margin="165,39,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+            <Label x:Name="shoppingLabel" Content="Grand centre commercial" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37" Canvas.Left="113" Canvas.Top="36"/>
 
             <Image Source ="Icons/pointer_black.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="222" Canvas.Top="228" />
 

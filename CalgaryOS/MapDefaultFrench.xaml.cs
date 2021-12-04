@@ -200,13 +200,13 @@ namespace CalgaryOS
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MapSearch());
+            Switcher.Switch(new MapSearchFrench());
             DispatcherTimer_Stop();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MapFilters());
+            Switcher.Switch(new MapFiltersFrench());
             DispatcherTimer_Stop();
         }
 

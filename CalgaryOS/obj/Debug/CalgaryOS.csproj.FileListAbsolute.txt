@@ -205,3 +205,7 @@ C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.exe
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.pdb
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDefaultFrench.g.cs
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDefaultFrench.baml
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchFrench.g.cs
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchFrench.baml
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapFiltersFrench.g.cs
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapFiltersFrench.baml
