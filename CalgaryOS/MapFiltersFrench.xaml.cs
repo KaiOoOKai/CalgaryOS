@@ -231,7 +231,7 @@ namespace CalgaryOS
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Explore());
+            Switcher.Switch(new ExploreFrench());
             DispatcherTimer_Stop();
         }
 
@@ -442,7 +442,7 @@ namespace CalgaryOS
         }
         private void Explore(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Explore());
+            Switcher.Switch(new ExploreFrench());
         }
 
         private void Services(object sender, RoutedEventArgs e)
