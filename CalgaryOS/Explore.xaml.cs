@@ -48,8 +48,8 @@ namespace CalgaryOS
 
             if (!Switcher.getLanguage())
             {
-                helpLabel.Content = "Tapez pour les directions";
-                helpLabel.Margin = new Thickness(25, 53, 0, 0);
+                helpLabel.Content = "Tapez pour les directions" + Environment.NewLine + "               ↓↓↓↓↓↓↓";
+                helpLabel.Margin = new Thickness(25, 35, 0, 0);
                 eventsLabel.Content = "Événements";
                 eventsLabel.Margin = new Thickness(130, 513, 26, 0);
 

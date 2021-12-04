@@ -19,7 +19,7 @@
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
                 <TextBox x:Name="exploreText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Explore">
-                    
+
                 </TextBox>
             </StackPanel>
         </Button>
@@ -35,7 +35,7 @@
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
                 <TextBox x:Name="mapText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Map">
-                    
+
                 </TextBox>
             </StackPanel>
         </Button>
@@ -64,7 +64,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="helpLabel" Content="Tap For Directions" HorizontalAlignment="Left" Margin="84,53,-50,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="37" FontWeight="Bold" Width="466" Height="77" FontStretch="UltraCondensed"/>
+        <Label x:Name="helpLabel" Content="Tap For Directions&#xD;&#xA;        ↓↓↓↓↓↓↓" HorizontalAlignment="Left" Margin="84,23,-50,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="37" FontWeight="Bold" Width="466" Height="107" FontStretch="UltraCondensed"/>
 
         <Button x:Name="restaurant1" Content="1: Mac Donnis" HorizontalAlignment="Left" Margin="19,195,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
@@ -116,7 +116,7 @@
         </Button>
 
         <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="172" Margin="10,518,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
-  
+
 
         <Button x:Name="event1" Content="1: Stampede" HorizontalAlignment="Left" Margin="19,569,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>

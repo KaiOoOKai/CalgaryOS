@@ -200,6 +200,37 @@ namespace CalgaryOS
                     break;
             }
             DispatcherTimer.Start();
+
+            blueButton.Visibility = Visibility.Hidden;
+            blueButton.IsEnabled = false;
+            getBlueDirection.Visibility = Visibility.Hidden;
+            getBlueDirection.IsEnabled = false;
+
+            shaqButton.Visibility = Visibility.Hidden;
+            shaqButton.IsEnabled = false;
+            getShaqDirection.Visibility = Visibility.Hidden;
+            getShaqDirection.IsEnabled = false;
+
+            stampedeButton.Visibility = Visibility.Hidden;
+            stampedeButton.IsEnabled = false;
+            getStampedeDirection.Visibility = Visibility.Hidden;
+            getStampedeDirection.IsEnabled = false;
+
+            innButton.Visibility = Visibility.Hidden;
+            innButton.IsEnabled = false;
+            getInnDirection.Visibility = Visibility.Hidden;
+            getInnDirection.IsEnabled = false;
+
+            mallButton.Visibility = Visibility.Hidden;
+            mallButton.IsEnabled = false;
+            getMallDirection.Visibility = Visibility.Hidden;
+            getMallDirection.IsEnabled = false;
+
+            rockButton.Visibility = Visibility.Hidden;
+            rockButton.IsEnabled = false;
+            getRockDirection.Visibility = Visibility.Hidden;
+            getRockDirection.IsEnabled = false;
+
             if (!Switcher.getLanguage())
             {
                 mapText.Text = "Carte";
@@ -522,5 +553,119 @@ namespace CalgaryOS
             Canvas1.ReleaseMouseCapture();
             isDragged = false;
         }
+
+        private void sightButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (blueButton.IsEnabled)
+            {
+                blueButton.Visibility = Visibility.Hidden;
+                blueButton.IsEnabled = false;
+                getBlueDirection.Visibility = Visibility.Hidden;
+                getBlueDirection.IsEnabled = false;
+            }
+            else
+            {
+                blueButton.Visibility = Visibility.Visible;
+                blueButton.IsEnabled = true;
+                getBlueDirection.Visibility = Visibility.Visible;
+                getBlueDirection.IsEnabled = true;
+            }
+
+        }
+
+        private void restaurantButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (shaqButton.IsEnabled)
+            {
+                shaqButton.Visibility = Visibility.Hidden;
+                shaqButton.IsEnabled = false;
+                getShaqDirection.Visibility = Visibility.Hidden;
+                getShaqDirection.IsEnabled = false;
+            }
+            else
+            {
+                shaqButton.Visibility = Visibility.Visible;
+                shaqButton.IsEnabled = true;
+                getShaqDirection.Visibility = Visibility.Visible;
+                getShaqDirection.IsEnabled = true;
+            }
+        }
+
+
+
+        private void hotspotButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (stampedeButton.IsEnabled)
+            {
+                stampedeButton.Visibility = Visibility.Hidden;
+                stampedeButton.IsEnabled = false;
+                getStampedeDirection.Visibility = Visibility.Hidden;
+                getStampedeDirection.IsEnabled = false;
+            }
+            else
+            {
+                stampedeButton.Visibility = Visibility.Visible;
+                stampedeButton.IsEnabled = true;
+                getStampedeDirection.Visibility = Visibility.Visible;
+                getStampedeDirection.IsEnabled = true;
+            }
+        }
+
+
+        private void hotelButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (innButton.IsEnabled)
+            {
+                innButton.Visibility = Visibility.Hidden;
+                innButton.IsEnabled = false;
+                getInnDirection.Visibility = Visibility.Hidden;
+                getInnDirection.IsEnabled = false;
+            }
+            else
+            {
+                innButton.Visibility = Visibility.Visible;
+                innButton.IsEnabled = true;
+                getInnDirection.Visibility = Visibility.Visible;
+                getInnDirection.IsEnabled = true;
+            }
+        }
+
+        private void mallButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (mallButton.IsEnabled)
+            {
+                mallButton.Visibility = Visibility.Hidden;
+                mallButton.IsEnabled = false;
+                getMallDirection.Visibility = Visibility.Hidden;
+                getMallDirection.IsEnabled = false;
+            }
+            else
+            {
+                mallButton.Visibility = Visibility.Visible;
+                mallButton.IsEnabled = true;
+                getMallDirection.Visibility = Visibility.Visible;
+                getMallDirection.IsEnabled = true;
+            }
+        }
+
+        private void rockButtonClick(object sender, RoutedEventArgs e)
+        {
+            if (rockButton.IsEnabled)
+            {
+                rockButton.Visibility = Visibility.Hidden;
+                rockButton.IsEnabled = false;
+                getRockDirection.Visibility = Visibility.Hidden;
+                getRockDirection.IsEnabled = false;
+            }
+            else
+            {
+                rockButton.Visibility = Visibility.Visible;
+                rockButton.IsEnabled = true;
+                getRockDirection.Visibility = Visibility.Visible;
+                getRockDirection.IsEnabled = true;
+            }
+        }
+
+       
     }
 }

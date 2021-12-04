@@ -59,7 +59,7 @@
 
 
 
-        <Button Content="City Information" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Click="Button_Click_3"/>
+        <Button Content="City Information" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Click="Button_Click_3" IsEnabled="False" FontWeight="Bold"/>
         <Label Content="City Phone numbers" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452">
 
         </Label>
