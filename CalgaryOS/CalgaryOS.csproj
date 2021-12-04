@@ -92,6 +92,9 @@
     <Compile Include="MapDefault.xaml.cs">
       <DependentUpon>MapDefault.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MapDirectionsFrench.xaml.cs">
+      <DependentUpon>MapDirectionsFrench.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapDirectionsMCD.xaml.cs">
       <DependentUpon>MapDirectionsMCD.xaml</DependentUpon>
     </Compile>
@@ -103,6 +106,9 @@
     </Compile>
     <Compile Include="MapFilters.xaml.cs">
       <DependentUpon>MapFilters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MapSearchAfterFrench.xaml.cs">
+      <DependentUpon>MapSearchAfterFrench.xaml</DependentUpon>
     </Compile>
     <Compile Include="MapSearchFrench.xaml.cs">
       <DependentUpon>MapSearchFrench.xaml</DependentUpon>
@@ -184,6 +190,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MapDirectionsFrench.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MapDirectionsMCD.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -199,6 +209,10 @@
     <Page Include="MapFilters.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MapSearchAfterFrench.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MapSearchFrench.xaml">
       <Generator>MSBuild:Compile</Generator>

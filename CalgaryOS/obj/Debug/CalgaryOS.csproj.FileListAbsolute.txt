@@ -209,3 +209,7 @@ C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchFrench.g.cs
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchFrench.baml
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapFiltersFrench.g.cs
 C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapFiltersFrench.baml
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfterFrench.g.cs
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapSearchAfterFrench.baml
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsFrench.g.cs
+C:\Users\Rowan\source\repos\CalgaryOS\CalgaryOS\obj\Debug\MapDirectionsFrench.baml

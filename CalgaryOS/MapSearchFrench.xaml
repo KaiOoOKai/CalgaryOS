@@ -54,7 +54,7 @@
         </Button>
 
 
-        <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_6" Canvas.Left="345" Canvas.Top="441" Margin="368,445,0,0">
+        <Button x:Name="languageButton" Content="Langue"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_6" Canvas.Left="345" Canvas.Top="441" Margin="368,445,0,0">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="25"/>

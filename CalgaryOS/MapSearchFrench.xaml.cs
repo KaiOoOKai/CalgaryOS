@@ -120,7 +120,7 @@ namespace CalgaryOS
         }
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MapSearchAfter());
+            Switcher.Switch(new MapSearchAfterFrench());
             DispatcherTimer_Stop();
         }
         private void Explore(object sender, RoutedEventArgs e)
