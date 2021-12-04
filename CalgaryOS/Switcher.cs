@@ -13,6 +13,7 @@ namespace CalgaryOS
         static bool lastPage = false;
         static UserControl stored;
         static int counter = 1;
+        static bool english = true;
         public static void Switch(UserControl newPage)
         {
             pageSwitcher.Navigate(newPage);
@@ -49,6 +50,13 @@ namespace CalgaryOS
                 counter += 1;
             }
         }
-
+        public static void setLanguage(bool setter) 
+        {
+            english = setter;
+        }
+        public static bool getLanguage() 
+        {
+            return english;
+        }
     }
 }

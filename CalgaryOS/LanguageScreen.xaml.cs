@@ -58,11 +58,17 @@ namespace CalgaryOS
         {
             switch (sender.ToString().Split(new string[] { ": " }, StringSplitOptions.None).Last()) {
                 case "English":
+                    Switcher.setLanguage(true);
                     Switcher.Switch(new MapDefault());
                     break;
                 case "Français":
-                    Switcher.Switch(new MapDefaultFrench());
+                    Switcher.setLanguage(false);
+                    Switcher.Switch(new MapDefault());
                     break;
+                default:
+                    Switcher.Switch(new MapDefault());
+                    break;
+
             }
         }
     }

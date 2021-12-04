@@ -44,6 +44,17 @@ namespace CalgaryOS
                     break;
             }
             DispatcherTimer.Start();
+            if (!Switcher.getLanguage())
+            {
+                choiceText.Content = "1. Campus principal de l'Université de Calgary" + Environment.NewLine + "2. Campus Spy Hill de l'Université de Calgary" + Environment.NewLine + "3. Campus du centre-ville de l'Université de Calgary";
+                mapText.Text = "Carte";
+                exploreText.Text = "Explorer";
+                searchText.Text = "Université de Calgary";
+                filterButton.Content = "Filtres";
+                clearButton.Content = "Effacer";
+                enterButton.Content = "Entrée";
+            }
+            
         }
         private void DispatcherTimer_Tick(object sender, EventArgs e)
         {

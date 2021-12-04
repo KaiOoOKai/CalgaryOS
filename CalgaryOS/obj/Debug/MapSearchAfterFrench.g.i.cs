@@ -40,14 +40,6 @@ namespace CalgaryOS {
     /// </summary>
     public partial class MapSearchAfterFrench : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
         
-        
-        #line 64 "..\..\MapSearchAfterFrench.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button languageButton;
-        
-        #line default
-        #line hidden
-        
         private bool _contentLoaded;
         
         /// <summary>
@@ -80,96 +72,23 @@ namespace CalgaryOS {
             {
             case 1:
             
-            #line 23 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Explore);
+            #line 18 "..\..\MapSearchAfterFrench.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_8);
             
             #line default
             #line hidden
             return;
             case 2:
             
-            #line 31 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Transit);
+            #line 19 "..\..\MapSearchAfterFrench.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_5);
             
             #line default
             #line hidden
             return;
             case 3:
             
-            #line 39 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Map);
-            
-            #line default
-            #line hidden
-            return;
-            case 4:
-            
-            #line 47 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Services);
-            
-            #line default
-            #line hidden
-            return;
-            case 5:
-            
-            #line 55 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Taxi);
-            
-            #line default
-            #line hidden
-            return;
-            case 6:
-            this.languageButton = ((System.Windows.Controls.Button)(target));
-            
-            #line 64 "..\..\MapSearchAfterFrench.xaml"
-            this.languageButton.Click += new System.Windows.RoutedEventHandler(this.Button_Click_6);
-            
-            #line default
-            #line hidden
-            return;
-            case 7:
-            
-            #line 82 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_4);
-            
-            #line default
-            #line hidden
-            return;
-            case 8:
-            
-            #line 90 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_7);
-            
-            #line default
-            #line hidden
-            return;
-            case 9:
-            
-            #line 97 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_8);
-            
-            #line default
-            #line hidden
-            return;
-            case 10:
-            
-            #line 98 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_8);
-            
-            #line default
-            #line hidden
-            return;
-            case 11:
-            
-            #line 99 "..\..\MapSearchAfterFrench.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_5);
-            
-            #line default
-            #line hidden
-            return;
-            case 12:
-            
-            #line 100 "..\..\MapSearchAfterFrench.xaml"
+            #line 20 "..\..\MapSearchAfterFrench.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_7);
             
             #line default

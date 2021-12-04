@@ -45,7 +45,29 @@ namespace CalgaryOS
                     break;
             }
             DispatcherTimer.Start();
-        }
+
+            if (!Switcher.getLanguage())
+            {
+                helpLabel.Content = "Tapez pour les directions";
+                helpLabel.Margin = new Thickness(25, 53, 0, 0);
+                eventsLabel.Content = "Événements";
+                eventsLabel.Margin = new Thickness(130, 513, 26, 0);
+
+                restaurant1.Content = "1: Monsieur Donnis";
+                restaurant2.Content = "2: Fête de Dunkaroo";
+
+                sightLabel.Content = "Vues";
+                sight1.Content = "1: Montagne de la baguette";
+                sight2.Content = "2: Fontaine d'eau";
+                sight3.Content = "3: Bague Bleue";
+
+                event2.Content = "2: Fête des Quilles";
+                event3.Content = "3: La Tournée rap de The Rock";
+
+                mapText.Text = "Carte";
+                exploreText.Text = "Explorer";
+            }
+            }
         private void DispatcherTimer_Tick(object sender, EventArgs e)
         {
 

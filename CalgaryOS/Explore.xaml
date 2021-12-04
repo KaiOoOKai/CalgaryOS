@@ -18,8 +18,8 @@
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF"  Margin="0,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
-                    Explore
+                <TextBox x:Name="exploreText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Explore">
+                    
                 </TextBox>
             </StackPanel>
         </Button>
@@ -34,8 +34,8 @@
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
-                    Map
+                <TextBox x:Name="mapText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Map">
+                    
                 </TextBox>
             </StackPanel>
         </Button>
@@ -64,23 +64,23 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label Content="Tap For Directions" HorizontalAlignment="Left" Margin="84,53,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="37" FontWeight="Bold" Width="406" Height="77" FontStretch="UltraCondensed"/>
+        <Label x:Name="helpLabel" Content="Tap For Directions" HorizontalAlignment="Left" Margin="84,53,-50,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="37" FontWeight="Bold" Width="466" Height="77" FontStretch="UltraCondensed"/>
 
-        <Button Content="1: Mac Donnis" HorizontalAlignment="Left" Margin="19,195,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="restaurant1" Content="1: Mac Donnis" HorizontalAlignment="Left" Margin="19,195,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="2: Dunkaroo Fest" HorizontalAlignment="Left" Margin="19,235,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="restaurant2" Content="2: Dunkaroo Fest" HorizontalAlignment="Left" Margin="19,235,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="3: Chipotle" HorizontalAlignment="Left" Margin="19,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="restaurant3" Content="3: Chipotle" HorizontalAlignment="Left" Margin="19,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
@@ -89,9 +89,9 @@
         </Button>
 
         <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="178" Margin="10,335,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
-            <Label Content="Vistas&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="165,-7,-3,124" Width="296"/>
+            <Label x:Name="sightLabel" Content="Vistas&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="165,-7,-3,124" Width="296"/>
         </Border>
-        <Button Content="1: Mountain" HorizontalAlignment="Left" Margin="19,386,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="sight1" Content="1: Mountain" HorizontalAlignment="Left" Margin="19,386,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
@@ -99,7 +99,7 @@
             </Button.Resources>
         </Button>
 
-        <Button Content="2: Water fountain" HorizontalAlignment="Left" Margin="19,425,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="sight2" Content="2: Water fountain" HorizontalAlignment="Left" Margin="19,425,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
@@ -107,7 +107,7 @@
             </Button.Resources>
         </Button>
 
-        <Button Content="3: Blue ring" HorizontalAlignment="Left" Margin="19,464,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="sight3" Content="3: Blue ring" HorizontalAlignment="Left" Margin="19,464,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
@@ -116,9 +116,9 @@
         </Button>
 
         <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="172" Margin="10,518,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2"/>
-        <Label Content="1: Stampede&#xD;&#xA;" HorizontalAlignment="Left" Margin="19,564,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Microsoft Sans Serif" Height="37"/>
+  
 
-        <Button Content="1: Stampede" HorizontalAlignment="Left" Margin="19,569,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="event1" Content="1: Stampede" HorizontalAlignment="Left" Margin="19,569,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
@@ -126,14 +126,14 @@
             </Button.Resources>
         </Button>
 
-        <Button Content="2: Bowling Fest" HorizontalAlignment="Left" Margin="19,606,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="event2" Content="2: Bowling Fest" HorizontalAlignment="Left" Margin="19,606,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="3: The Rock Rap Tour" HorizontalAlignment="Left" Margin="19,646,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
+        <Button x:Name="event3" Content="3: The Rock Rap Tour" HorizontalAlignment="Left" Margin="19,646,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.026,-7.692" FontSize="26" FontFamily="Microsoft Sans Serif" Width="440" Click="Button_Click_5" HorizontalContentAlignment="Left">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="8"/>
@@ -141,7 +141,7 @@
             </Button.Resources>
         </Button>
 
-        <Label Content="Events" HorizontalAlignment="Center" Margin="181,513,183,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Width="136"/>
+        <Label x:Name="eventsLabel" Content="Events" HorizontalAlignment="Center" Margin="181,513,26,0" VerticalAlignment="Top" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Width="293"/>
         <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="195" Margin="10,135,0,0" VerticalAlignment="Top" Width="464" CornerRadius="2">
             <Label Content="Restaurants&#xA;&#xA;" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="124,-7,-3,124" Width="337"/>
         </Border>

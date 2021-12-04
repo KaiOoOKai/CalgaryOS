@@ -23,7 +23,7 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Click="Button_Click" Content="Switch to Transit"  HorizontalAlignment="Left" Height="50" Margin="13,485,0,0" VerticalAlignment="Top" Width="169"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
+            <Button x:Name="transitSwitchButton" Click="Button_Click" Content="Switch to Transit"  HorizontalAlignment="Left" Height="50" Margin="13,485,0,0" VerticalAlignment="Top" Width="169"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="25"/>
@@ -33,7 +33,7 @@
             <Button HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="449"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="12" Canvas.Top="541">
                 <StackPanel Orientation="Horizontal">
                     <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
-                    <TextBlock Text="University of Calgary - Main ..." Width="353" Height="23" />
+                    <TextBlock x:Name="searchText" Text="University of Calgary - Main ..." Width="353" Height="23" />
                 </StackPanel>
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
@@ -41,7 +41,7 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Filters"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"  RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="348" Canvas.Top="541">
+            <Button x:Name="filterButton" Content="Filters"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"  RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="348" Canvas.Top="541">
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="25"/>
@@ -49,14 +49,14 @@
                 </Button.Resources>
             </Button>
 
-            <Button Content="1. Go west on west street for 1.5 km&#xA;2. Go north 100m then turn left&#xA;3. Take the main road exit in 0.5 km&#xA;4. Take the main road exit in 4 km&#xD;&#xA;5. Destination will be on the left in 0.5 km&#xA;" HorizontalAlignment="Left" Height="142" Margin="13,601,0,0" VerticalAlignment="Top" Width="458" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3"  >
+            <Button x:Name="instructionText" Content="1. Go west on west street for 1.5 km&#xA;2. Go north 100m then turn left&#xA;3. Take the main road exit in 0.5 km&#xA;4. Take the main road exit in 4 km&#xD;&#xA;5. Destination will be on the left in 0.5 km&#xA;" HorizontalAlignment="Left" Height="142" Margin="13,601,0,0" VerticalAlignment="Top" Width="458" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3"  >
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="25"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Print Directions"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="151"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="189" Canvas.Top="485" Click="Button_Click_8">
+            <Button x:Name="instructionButton" Content="Print Directions"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="151"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="189" Canvas.Top="485" Click="Button_Click_8">
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="25"/>
@@ -71,8 +71,8 @@
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Explore" Margin="0,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
-                    Explore
+                <TextBox x:Name="exploreText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Explore">
+                    
                 </TextBox>
             </StackPanel>
         </Button>
@@ -87,8 +87,8 @@
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
-                    Map
+                <TextBox  x:Name="mapText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Map">
+                    
                 </TextBox>
             </StackPanel>
         </Button>

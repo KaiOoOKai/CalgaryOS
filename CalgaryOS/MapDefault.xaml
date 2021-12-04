@@ -47,7 +47,7 @@
             <Button x:Name="shoppingButton" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="54" Background="Transparent" BorderBrush="Transparent"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="0" FontFamily="Microsoft Sans Serif" Canvas.Left="166" Canvas.Top="53">
                 <Image Source="Icons/pointer.png"/>
             </Button>
-            <Label x:Name="shoppingLabel" Content="Big Mall" HorizontalAlignment="Left" Margin="165,39,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
+            <Label x:Name="shoppingLabel" Content="Big Mall" HorizontalAlignment="Center" Margin="165,39,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
 
             <Image Source ="Icons/pointer_black.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="222" Canvas.Top="228" />
 
@@ -64,8 +64,8 @@
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Explore" Margin="0,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
-                    Explore
+                <TextBox x:Name="exploreText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Explore">
+                    
                 </TextBox>
             </StackPanel>
         </Button>
@@ -77,11 +77,10 @@
                 </TextBox>
             </StackPanel>
         </Button>
-        <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
+        <Button x:Name="mapButton" BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FF5192FF" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
-                    Map
+                <TextBox x:Name="mapText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}" Text="Map">
                 </TextBox>
             </StackPanel>
         </Button>
@@ -110,10 +109,10 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button HorizontalAlignment="Left" Height="50" Margin="12,697,0,0" VerticalAlignment="Top" Width="313"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_3">
+        <Button x:Name="searchBar" HorizontalAlignment="Left" Height="50" Margin="12,697,0,0" VerticalAlignment="Top" Width="313"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_3">
             <StackPanel Orientation="Horizontal">
                 <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
-                <TextBlock Text="Search" Width="353" Height="23" />
+                <TextBlock x:Name="textBlock" Text="Search" Width="353" Height="23" />
             </StackPanel>
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
@@ -121,7 +120,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="212,697,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_4">
+        <Button x:Name="filterButton" Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="212,697,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_4">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="25"/>

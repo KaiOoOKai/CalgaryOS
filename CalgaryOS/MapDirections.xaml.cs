@@ -44,6 +44,17 @@ namespace CalgaryOS
                     break;
             }
             DispatcherTimer.Start();
+
+            if (!Switcher.getLanguage())
+            {
+                mapText.Text = "Carte";
+                exploreText.Text = "Explorer";
+                instructionButton.Content = "Imprimer Instructions";
+                instructionText.Content = "1. Allez vers l'ouest sur la rue ouest sur 1,5 km" +Environment.NewLine +"2. Allez au nord 100m puis tournez à gauche" + Environment.NewLine + "3. Prendre la sortie de la route principale à 0,5 km" + Environment.NewLine + "4. Prendre la sortie de la route principale à 4 km" + Environment.NewLine + "5. La destination sera sur la gauche dans 0,5 km";
+                filterButton.Content = "Filtres";
+                searchText.Text = "Campus principal de l'Univers...";
+                transitSwitchButton.Content = "Passer en transit";
+            }
         }
         private void DispatcherTimer_Tick(object sender, EventArgs e)
         {

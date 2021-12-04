@@ -147,6 +147,20 @@ namespace CalgaryOS
                 hotspotLabel.Visibility = Visibility.Visible;
                 hotspotLabel.IsEnabled = true;
             }
+            if (!Switcher.getLanguage()) 
+            {
+                localButton.Content = "ÉVÉNEMENT LOCAL";
+                filterButton.Content = "Filtres";
+                textBlock.Text = "Chercher";
+                shoppingLabel.Content = "Grand centre commercial";
+                shoppingLabel.Margin = new Thickness(115, 39, 0, 0);
+                eventLabel.Content = "La Tournée rap de The Rock";
+                eventLabel.Margin = new Thickness(-45,207,0,0);
+                sightLabel.Content = "Bague Bleue Massive";
+                sightLabel.Margin = new Thickness(110, 536, 0, 0);
+                mapText.Text = "Carte";
+                exploreText.Text = "Explorer";
+            }
 
             
 
