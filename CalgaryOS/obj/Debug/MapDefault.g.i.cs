@@ -177,15 +177,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 58 "..\..\MapDefault.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button getShaqDirection;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 60 "..\..\MapDefault.xaml"
+        #line 59 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button stampedeButton;
         
@@ -193,7 +185,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 61 "..\..\MapDefault.xaml"
+        #line 60 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button getStampedeDirection;
         
@@ -201,7 +193,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 63 "..\..\MapDefault.xaml"
+        #line 62 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button innButton;
         
@@ -209,7 +201,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 64 "..\..\MapDefault.xaml"
+        #line 63 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button getInnDirection;
         
@@ -217,7 +209,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 66 "..\..\MapDefault.xaml"
+        #line 65 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button mallButton;
         
@@ -225,7 +217,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 67 "..\..\MapDefault.xaml"
+        #line 66 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button getMallDirection;
         
@@ -233,7 +225,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 69 "..\..\MapDefault.xaml"
+        #line 68 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button rockButton;
         
@@ -241,7 +233,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 70 "..\..\MapDefault.xaml"
+        #line 69 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button getRockDirection;
         
@@ -249,7 +241,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 74 "..\..\MapDefault.xaml"
+        #line 73 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Media.TranslateTransform translate;
         
@@ -257,7 +249,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 83 "..\..\MapDefault.xaml"
+        #line 82 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox exploreText;
         
@@ -265,7 +257,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 96 "..\..\MapDefault.xaml"
+        #line 95 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button mapButton;
         
@@ -273,7 +265,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 99 "..\..\MapDefault.xaml"
+        #line 98 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox mapText;
         
@@ -281,7 +273,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 121 "..\..\MapDefault.xaml"
+        #line 120 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button languageButton;
         
@@ -289,7 +281,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 128 "..\..\MapDefault.xaml"
+        #line 127 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button searchBar;
         
@@ -297,7 +289,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 131 "..\..\MapDefault.xaml"
+        #line 130 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock textBlock;
         
@@ -305,7 +297,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 139 "..\..\MapDefault.xaml"
+        #line 138 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button filterButton;
         
@@ -313,7 +305,7 @@ namespace CalgaryOS {
         #line hidden
         
         
-        #line 146 "..\..\MapDefault.xaml"
+        #line 145 "..\..\MapDefault.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button localButton;
         
@@ -468,140 +460,137 @@ namespace CalgaryOS {
             #line hidden
             return;
             case 18:
-            this.getShaqDirection = ((System.Windows.Controls.Button)(target));
-            return;
-            case 19:
             this.stampedeButton = ((System.Windows.Controls.Button)(target));
             
-            #line 60 "..\..\MapDefault.xaml"
+            #line 59 "..\..\MapDefault.xaml"
             this.stampedeButton.Click += new System.Windows.RoutedEventHandler(this.hotspotButtonClick);
             
             #line default
             #line hidden
             return;
-            case 20:
+            case 19:
             this.getStampedeDirection = ((System.Windows.Controls.Button)(target));
             return;
-            case 21:
+            case 20:
             this.innButton = ((System.Windows.Controls.Button)(target));
             
-            #line 63 "..\..\MapDefault.xaml"
+            #line 62 "..\..\MapDefault.xaml"
             this.innButton.Click += new System.Windows.RoutedEventHandler(this.hotelButtonClick);
             
             #line default
             #line hidden
             return;
-            case 22:
+            case 21:
             this.getInnDirection = ((System.Windows.Controls.Button)(target));
             return;
-            case 23:
+            case 22:
             this.mallButton = ((System.Windows.Controls.Button)(target));
             
-            #line 66 "..\..\MapDefault.xaml"
+            #line 65 "..\..\MapDefault.xaml"
             this.mallButton.Click += new System.Windows.RoutedEventHandler(this.mallButtonClick);
             
             #line default
             #line hidden
             return;
-            case 24:
+            case 23:
             this.getMallDirection = ((System.Windows.Controls.Button)(target));
             return;
-            case 25:
+            case 24:
             this.rockButton = ((System.Windows.Controls.Button)(target));
             
-            #line 69 "..\..\MapDefault.xaml"
+            #line 68 "..\..\MapDefault.xaml"
             this.rockButton.Click += new System.Windows.RoutedEventHandler(this.rockButtonClick);
             
             #line default
             #line hidden
             return;
-            case 26:
+            case 25:
             this.getRockDirection = ((System.Windows.Controls.Button)(target));
             return;
-            case 27:
+            case 26:
             this.translate = ((System.Windows.Media.TranslateTransform)(target));
             return;
-            case 28:
+            case 27:
             
-            #line 80 "..\..\MapDefault.xaml"
+            #line 79 "..\..\MapDefault.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Explore);
             
             #line default
             #line hidden
             return;
-            case 29:
+            case 28:
             this.exploreText = ((System.Windows.Controls.TextBox)(target));
             return;
-            case 30:
+            case 29:
             
-            #line 88 "..\..\MapDefault.xaml"
+            #line 87 "..\..\MapDefault.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Transit);
             
             #line default
             #line hidden
             return;
-            case 31:
+            case 30:
             this.mapButton = ((System.Windows.Controls.Button)(target));
             
-            #line 96 "..\..\MapDefault.xaml"
+            #line 95 "..\..\MapDefault.xaml"
             this.mapButton.Click += new System.Windows.RoutedEventHandler(this.Map);
             
             #line default
             #line hidden
             return;
-            case 32:
+            case 31:
             this.mapText = ((System.Windows.Controls.TextBox)(target));
             return;
-            case 33:
+            case 32:
             
-            #line 103 "..\..\MapDefault.xaml"
+            #line 102 "..\..\MapDefault.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Services);
             
             #line default
             #line hidden
             return;
-            case 34:
+            case 33:
             
-            #line 111 "..\..\MapDefault.xaml"
+            #line 110 "..\..\MapDefault.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Taxi);
             
             #line default
             #line hidden
             return;
-            case 35:
+            case 34:
             this.languageButton = ((System.Windows.Controls.Button)(target));
             
-            #line 121 "..\..\MapDefault.xaml"
+            #line 120 "..\..\MapDefault.xaml"
             this.languageButton.Click += new System.Windows.RoutedEventHandler(this.Button_Click_5);
             
             #line default
             #line hidden
             return;
-            case 36:
+            case 35:
             this.searchBar = ((System.Windows.Controls.Button)(target));
             
-            #line 128 "..\..\MapDefault.xaml"
+            #line 127 "..\..\MapDefault.xaml"
             this.searchBar.Click += new System.Windows.RoutedEventHandler(this.Button_Click_3);
             
             #line default
             #line hidden
             return;
-            case 37:
+            case 36:
             this.textBlock = ((System.Windows.Controls.TextBlock)(target));
             return;
-            case 38:
+            case 37:
             this.filterButton = ((System.Windows.Controls.Button)(target));
             
-            #line 139 "..\..\MapDefault.xaml"
+            #line 138 "..\..\MapDefault.xaml"
             this.filterButton.Click += new System.Windows.RoutedEventHandler(this.Button_Click_4);
             
             #line default
             #line hidden
             return;
-            case 39:
+            case 38:
             this.localButton = ((System.Windows.Controls.Button)(target));
             
-            #line 146 "..\..\MapDefault.xaml"
+            #line 145 "..\..\MapDefault.xaml"
             this.localButton.Click += new System.Windows.RoutedEventHandler(this.localButton_Click);
             
             #line default

@@ -55,7 +55,6 @@
 
 
             <Button x:Name="shaqButton" Content="Distance: 17 km&#xD;&#xA;Grouping: Restaurants&#xD;&#xA;" Height="92" Canvas.Left="222" Canvas.Top="534" Width="220" FontSize="18" Click="restaurantButtonClick"/>
-            <Button x:Name="getShaqDirection" Content="Get Directions" Height="32" Canvas.Left="222" Canvas.Top="594" Width="220" FontSize="18" Background="#FFFF6551"/>
 
             <Button x:Name="stampedeButton" Content="Distance: 7 km&#xD;&#xA;Grouping: Hotspots&#xD;&#xA;" Height="92" Canvas.Left="270" Canvas.Top="272" Width="220" FontSize="18" Click="hotspotButtonClick"/>
             <Button x:Name="getStampedeDirection" Content="Get Directions" Height="32" Canvas.Left="270" Canvas.Top="332" Width="220" FontSize="18" Background="#FFFF6551"/>

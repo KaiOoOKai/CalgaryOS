@@ -72,13 +72,6 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="filterButton" Content="Filters"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_4" Canvas.Left="345" Canvas.Top="493" Margin="368,495,0,0">
-            <Button.Resources>
-                <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="25"/>
-                </Style>
-            </Button.Resources>
-        </Button>
         <Button Click="Button_Click_7" Content="1 2 3 4 5 6 7 8 9 0 -&#xA;Q W E R T Y U I O P &#xA;   A S D F G H J K L &#xA;    Z X C V B N M &#xA;          SPACE " HorizontalAlignment="Center" Height="209" Margin="-4,550,7,0" VerticalAlignment="Top" Width="497"   FontSize="30" TextOptions.TextHintingMode="Fixed" Background="#FFFF6551" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" BorderThickness="3" HorizontalContentAlignment="Left" Padding="50,1,1,1"/>
         <Button Content="&lt;-" HorizontalAlignment="Left" Height="32" Margin="361,561,0,0" VerticalAlignment="Top" Width="99"   Background="#FFBDBDBD"/>
         <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Height="32" Margin="361,601,0,0" VerticalAlignment="Top" Width="99"   Background="#FFBDBDBD"/>

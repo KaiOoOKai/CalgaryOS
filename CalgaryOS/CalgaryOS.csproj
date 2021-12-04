@@ -331,5 +331,13 @@
   <ItemGroup>
     <Resource Include="Images\exploreBackground.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\googmapBlueRing.png" />
+    <Resource Include="Images\googmapComfort.png" />
+    <Resource Include="Images\googmapMall.png" />
+    <Resource Include="Images\googmapRock.png" />
+    <Resource Include="Images\googmapShaq.png" />
+    <Resource Include="Images\googmapStampede.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

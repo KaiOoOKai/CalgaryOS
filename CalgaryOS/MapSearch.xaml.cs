@@ -53,7 +53,7 @@ namespace CalgaryOS
                 mapText.Text = "Carte";
                 exploreText.Text = "Explorer";
                 searchText.Text = "Université de Calgary";
-                filterButton.Content = "Filtres";
+       
                 clearButton.Content = "Effacer";
                 enterButton.Content = "Entrée";
             }

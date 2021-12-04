@@ -79,14 +79,7 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button x:Name="filterButton" Content="Filters"  HorizontalAlignment="Left" Height="50" Margin="345,343,0,0" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" Background="#FBA3A3A3" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_4">
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="25"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-            <Button Content="1 2 3 4 5 6 7 8 9 0 -&#xA;Q W E R T Y U I O P &#xA;   A S D F G H J K L &#xA;    Z X C V B N M &#xA;          SPACE " HorizontalAlignment="Center" Height="209" Margin="-4,550,7,0" VerticalAlignment="Top" Width="497"   FontSize="30" TextOptions.TextHintingMode="Fixed" Background="#FFFF6551" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" BorderThickness="3" HorizontalContentAlignment="Left" Padding="50,1,1,1"/>
+        <Button Content="1 2 3 4 5 6 7 8 9 0 -&#xA;Q W E R T Y U I O P &#xA;   A S D F G H J K L &#xA;    Z X C V B N M &#xA;          SPACE " HorizontalAlignment="Center" Height="209" Margin="-4,550,7,0" VerticalAlignment="Top" Width="497"   FontSize="30" TextOptions.TextHintingMode="Fixed" Background="#FFFF6551" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" BorderThickness="3" HorizontalContentAlignment="Left" Padding="50,1,1,1"/>
             <Button x:Name="choiceText" Click="Button_Click_7" Content="1. University of Calgary Main Campus&#xA;&#xA;2. University of Calgary Spy Hill Campus&#xA;&#xA;3. University of Calgary Downtown Campus&#xA;&#xA;" HorizontalAlignment="Left" Height="142" Margin="12,399,0,0" VerticalAlignment="Top" Width="455" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3" >
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
