@@ -47,7 +47,7 @@ namespace CalgaryOS
                     break;
             }
             DispatcherTimer.Start();
-            if (!Switcher.getLanguage())
+            if (!Switcher.GetLanguage())
             {
              
                 mapText.Text = "Carte";

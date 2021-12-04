@@ -46,7 +46,7 @@ namespace CalgaryOS
             }
             DispatcherTimer.Start();
 
-            if (!Switcher.getLanguage())
+            if (!Switcher.GetLanguage())
             {
                 helpLabel.Content = "Tapez pour les directions" + Environment.NewLine + "               ↓↓↓↓↓↓↓";
                 helpLabel.Margin = new Thickness(25, 35, 0, 0);

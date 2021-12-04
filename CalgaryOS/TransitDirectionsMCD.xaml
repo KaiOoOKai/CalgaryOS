@@ -19,7 +19,7 @@
             <Image Source ="Icons/pointer.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="111" Canvas.Top="219" />
 
 
-            <Button Content="Train (direction) in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
+            <Button Content="Tuscany Train in 5 minutes" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
             <Button Content="Bus#x in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
 
 

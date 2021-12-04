@@ -180,7 +180,7 @@ namespace CalgaryOS
             getRockDirection.Visibility = Visibility.Hidden;
             getRockDirection.IsEnabled = false;
 
-            if (!Switcher.getLanguage()) 
+            if (!Switcher.GetLanguage()) 
             {
                 localButton.Content = "ÉVÉNEMENT LOCAL";
                 filterButton.Content = "Filtres";
@@ -450,6 +450,48 @@ namespace CalgaryOS
                 getRockDirection.Visibility = Visibility.Visible;
                 getRockDirection.IsEnabled = true;
             }
+        }
+
+        private void getBlueDirectionButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetDirection(1);
+            Switcher.Switch(new MapDirections());
+            DispatcherTimer_Stop();
+        }
+
+        private void getShaqDirectionButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetDirection(2);
+            Switcher.Switch(new MapDirections());
+            DispatcherTimer_Stop();
+        }
+
+        private void getInnDirectionButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetDirection(3);
+            Switcher.Switch(new MapDirections());
+            DispatcherTimer_Stop();
+        }
+
+        private void getStampedeDirectionButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetDirection(4);
+            Switcher.Switch(new MapDirections());
+            DispatcherTimer_Stop();
+        }
+
+        private void getMallDirectionButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetDirection(5);
+            Switcher.Switch(new MapDirections());
+            DispatcherTimer_Stop();
+        }
+
+        private void getRockDirectionButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetDirection(6);
+            Switcher.Switch(new MapDirections());
+            DispatcherTimer_Stop();
         }
     }
 }

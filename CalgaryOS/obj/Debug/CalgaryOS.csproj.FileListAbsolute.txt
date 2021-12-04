@@ -242,3 +242,4 @@ C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearch.
 C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearchAfter.baml
 C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TransitDirectionsMCD.baml
 C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TransitSearchAfter.baml
+C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csprojAssemblyReference.cache

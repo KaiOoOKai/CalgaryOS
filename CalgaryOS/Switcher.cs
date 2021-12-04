@@ -14,6 +14,7 @@ namespace CalgaryOS
         static UserControl stored;
         static int counter = 1;
         static bool english = true;
+        static int direction = 0;
         public static void Switch(UserControl newPage)
         {
             pageSwitcher.Navigate(newPage);
@@ -50,13 +51,22 @@ namespace CalgaryOS
                 counter += 1;
             }
         }
-        public static void setLanguage(bool setter) 
+        public static void SetLanguage(bool setter) 
         {
             english = setter;
         }
-        public static bool getLanguage() 
+        public static bool GetLanguage() 
         {
             return english;
+        }
+
+        public static int GetDirection() 
+        {
+            return direction;
+        }
+        public static void SetDirection(int i) 
+        {
+            direction = i;
         }
     }
 }

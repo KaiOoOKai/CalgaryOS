@@ -51,23 +51,23 @@
 
 
             <Button x:Name="blueButton" Content="Distance: 15 km&#xD;&#xA;Grouping: Sights&#xD;&#xA;" Height="92" Canvas.Left="70" Canvas.Top="474" Width="220" FontSize="18" Click="sightButtonClick"/>
-            <Button x:Name="getBlueDirection" Content="Get Directions" Height="32" Canvas.Left="70" Canvas.Top="534" Width="220" FontSize="18" Background="#FFFF6551"/>
+            <Button x:Name="getBlueDirection" Content="Get Directions" Height="32" Canvas.Left="70" Canvas.Top="534" Width="220" FontSize="18" Background="#FFFF6551" Click="getBlueDirectionButton"/>
 
 
             <Button x:Name="shaqButton" Content="Distance: 17 km&#xD;&#xA;Grouping: Restaurants&#xD;&#xA;" Height="92" Canvas.Left="222" Canvas.Top="534" Width="220" FontSize="18" Click="restaurantButtonClick"/>
-            <Button x:Name="getShaqDirection" Content="Get Directions" Height="32" Canvas.Left="222" Canvas.Top="594" Width="220" FontSize="18" Background="#FFFF6551"/>
+            <Button x:Name="getShaqDirection" Content="Get Directions" Height="32" Canvas.Left="222" Canvas.Top="594" Width="220" FontSize="18" Background="#FFFF6551" Click="getShaqDirectionButton"/>
 
             <Button x:Name="stampedeButton" Content="Distance: 7 km&#xD;&#xA;Grouping: Hotspots&#xD;&#xA;" Height="92" Canvas.Left="270" Canvas.Top="272" Width="220" FontSize="18" Click="hotspotButtonClick"/>
-            <Button x:Name="getStampedeDirection" Content="Get Directions" Height="32" Canvas.Left="270" Canvas.Top="332" Width="220" FontSize="18" Background="#FFFF6551"/>
+            <Button x:Name="getStampedeDirection" Content="Get Directions" Height="32" Canvas.Left="270" Canvas.Top="332" Width="220" FontSize="18" Background="#FFFF6551" Click="getStampedeDirectionButton"/>
 
             <Button x:Name="innButton" Content="Distance: 6 km&#xD;&#xA;Grouping: Hotels&#xD;&#xA;" Height="92" Canvas.Left="280" Canvas.Top="152" Width="220" FontSize="18" Click="hotelButtonClick"/>
-            <Button x:Name="getInnDirection" Content="Get Directions" Height="32" Canvas.Left="280" Canvas.Top="212" Width="220" FontSize="18" Background="#FFFF6551"/>
+            <Button x:Name="getInnDirection" Content="Get Directions" Height="32" Canvas.Left="280" Canvas.Top="212" Width="220" FontSize="18" Background="#FFFF6551" Click="getInnDirectionButton"/>
 
             <Button x:Name="mallButton" Content="Distance: 11 km&#xD;&#xA;Grouping: Shopping&#xD;&#xA;" Height="92" Canvas.Left="79" Canvas.Top="-16" Width="220" FontSize="18" Click="mallButtonClick"/>
-            <Button x:Name="getMallDirection" Content="Get Directions" Height="32" Canvas.Left="79" Canvas.Top="44" Width="220" FontSize="18" Background="#FFFF6551"/>
+            <Button x:Name="getMallDirection" Content="Get Directions" Height="32" Canvas.Left="79" Canvas.Top="44" Width="220" FontSize="18" Background="#FFFF6551" Click="getMallDirectionButton"/>
 
             <Button x:Name="rockButton" Content="Distance: 8 km&#xD;&#xA;Grouping: Events&#xD;&#xA;" Height="92" Canvas.Left="-75" Canvas.Top="142" Width="220" FontSize="18" Click="rockButtonClick"/>
-            <Button x:Name="getRockDirection" Content="Get Directions" Height="32" Canvas.Left="-75" Canvas.Top="202" Width="220" FontSize="18" Background="#FFFF6551"/>
+            <Button x:Name="getRockDirection" Content="Get Directions" Height="32" Canvas.Left="-75" Canvas.Top="202" Width="220" FontSize="18" Background="#FFFF6551" Click="getRockDirectionButton"/>
 
             <Canvas.RenderTransform>
                 <TransformGroup>
