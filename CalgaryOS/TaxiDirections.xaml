@@ -6,56 +6,63 @@
         xmlns:local="clr-namespace:CalgaryOS"
         mc:Ignorable="d"
         d:DesignHeight="889" d:DesignWidth="500">
-    <Grid Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
+    <Grid x:Name="Grid1" Margin="0,0,-0.4,0.2" HorizontalAlignment="Center">
         <!-- Map Directions -->
-        <Image HorizontalAlignment="Left" Height="1880" Margin="-379,-412,-421.4,-609" VerticalAlignment="Top" Width="1294" Source="Images/googmap_dir.png" RenderTransformOrigin="0.5,0.5"/>
-        <Canvas x:Name="Canvas1" Background="Transparent" >
-
+        
+        <Canvas x:Name="Canvas1" Background="Transparent" MouseDown="Canvas1_MouseDown" MouseUp="Canvas1_MouseUp" MouseMove="Canvas1_MouseMove" >
+            <Image x:Name="mapImage" HorizontalAlignment="Left" Height="1880" Margin="-379,-412,-421.4,-609" VerticalAlignment="Top" Width="1294" Source="Images/googmap_dir.png" RenderTransformOrigin="0.5,0.5"/>
             <Image Source ="Icons/pointer_black.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="280" Canvas.Top="242" />
-            <Image Source ="Icons/pointer.png" Margin="76,74,383.6,777.6" RenderTransformOrigin="0.231,0.072" Height="37" />
-      
-            <Button Click="Order" Content="Order"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="12" Canvas.Top="558">
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="25"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
+            <Image x:Name="pointerImage" Source ="Icons/pointer.png" Margin="76,74,383.6,777.6" RenderTransformOrigin="0.231,0.072" Height="37" />
 
-            <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_7" Canvas.Left="349" Canvas.Top="611">
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="25"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-            <Button HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="316"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="12" Canvas.Top="611">
-                <StackPanel Orientation="Horizontal">
-                    <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
-                    <TextBlock Text="University of Calgary - Main ..." Width="353" Height="23" />
-                </StackPanel>
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="25"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-
-            <Button Content="Taxi Time: 10 Minutes&#xD;&#xA;Taxi Cost: 14 million Zimbabwean dollars&#xD;&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="458" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3" Canvas.Left="13" Canvas.Top="671"  >
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="25"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform x:Name="translate" />
+                </TransformGroup>
+            </Canvas.RenderTransform>
 
         </Canvas>
+
+        <Button Click="Order" Content="Order"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Margin="12,558,0,0" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button x:Name="languageButton" Content="Language"  HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="122"   RenderTransformOrigin="0.5,0.5" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Click="Button_Click_7" Margin="349,611,0,0" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="316"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif" Margin="12,611,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
+                <TextBlock x:Name="searchText" Text="University of Calgary - Main ..." Width="353" Height="23" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button x:Name="instructionText" Content="Taxi Time: 10 Minutes&#xD;&#xA;Taxi Cost: 14 million Zimbabwean dollars&#xD;&#xA;" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="458" FontFamily="Century Gothic" FontSize="18" Padding="1,10,56,5" BorderThickness="3" Margin="13,671,0,0"   >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
 
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100" BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Explore" Margin="0,758,0,0" >
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Star.png" Height="56" Width="106" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                <TextBox x:Name="exploreText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
                     Explore
                 </TextBox>
             </StackPanel>
@@ -71,7 +78,7 @@
         <Button BorderThickness="3" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="100"   BorderBrush="#FF707070" FontSize="18" ClickMode="Press" FontFamily="Microsoft Sans Serif" Background="#FFFF6551" Click="Map" Canvas.Left="194" Canvas.Top="757" Margin="199,758,0,0">
             <StackPanel>
                 <Image Opacity="1" Source="Icons/Map.png" Height="59" Width="66" />
-                <TextBox Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                <TextBox x:Name="mapText" Background="{x:Null}" HorizontalAlignment="Center" BorderBrush="{x:Null}">
                     Map
                 </TextBox>
             </StackPanel>

@@ -50,6 +50,8 @@
             <Label x:Name="shoppingLabel" Content="Big Mall" HorizontalAlignment="Center" Margin="165,39,0,0" VerticalAlignment="Top" FontSize="13" FontFamily="Microsoft Sans Serif" Height="37"/>
 
             <Image Source ="Icons/pointer_black.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="222" Canvas.Top="228" />
+            
+            
             <Button x:Name="blueButton" Content="Distance: 15 km&#xD;&#xA;Grouping: Sights&#xD;&#xA;" Height="92" Canvas.Left="70" Canvas.Top="474" Width="220" FontSize="18" Click="sightButtonClick"/>
             <Button x:Name="getBlueDirection" Content="Get Directions" Height="32" Canvas.Left="70" Canvas.Top="534" Width="220" FontSize="18" Background="#FFFF6551" Click="getBlueDirectionButton"/>
 
