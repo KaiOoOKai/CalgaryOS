@@ -32,7 +32,7 @@
             <Button HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="449"  RenderTransformOrigin="0.5,0.5" FontSize="18" BorderBrush="#FF707070" Padding="15,1,1,1" BorderThickness="3" FontFamily="Microsoft Sans Serif" Canvas.Left="12" Canvas.Top="541">
                 <StackPanel Orientation="Horizontal">
                     <Image Opacity="0.6" Source="Icons/search.png" Height="37" Width="39" />
-                    <TextBlock Text="Mac Donnis" Width="353" Height="23" />
+                    <TextBlock x:Name="searchLabel" Text="Mac Donnis" Width="353" Height="23" />
                 </StackPanel>
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">

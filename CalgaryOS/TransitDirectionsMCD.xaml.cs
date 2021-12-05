@@ -44,6 +44,33 @@ namespace CalgaryOS
                     break;
             }
             DispatcherTimer.Start();
+            switch (Switcher.GetEvent())
+            {
+                case 1:
+                    searchLabel.Text = "Dunkaroo Fest";
+                    break;
+                case 2:
+                    searchLabel.Text = "Chipotle";
+                    break;
+                case 3:
+                    searchLabel.Text = "Mountain";
+                    break;
+                case 4:
+                    searchLabel.Text = "Water Fountain";
+                    break;
+                case 5:
+                    searchLabel.Text = "Blue Ring";
+                    break;
+                case 6:
+                    searchLabel.Text = "Stampede";
+                    break;
+                case 7:
+                    searchLabel.Text = "Bowling Fest";
+                    break;
+                case 8:
+                    searchLabel.Text = "The Rock Rap Tour";
+                    break;
+            }
         }
         private void DispatcherTimer_Tick(object sender, EventArgs e)
         {

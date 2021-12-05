@@ -123,6 +123,7 @@ namespace CalgaryOS
         }
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
+            Switcher.SetEvent(0);
             Switcher.Switch(new MapDirectionsMCD());
             DispatcherTimer_Stop();
         }
@@ -147,6 +148,62 @@ namespace CalgaryOS
         private void Map(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MapDefault());
+            DispatcherTimer_Stop();
+        }
+
+        private void dunkButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(1);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void chipotleButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(2);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void mountainButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(3);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void waterButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(4);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void ringButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(5);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void stampedeButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(6);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void bowlingButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(7);
+            Switcher.Switch(new MapDirectionsMCD());
+            DispatcherTimer_Stop();
+        }
+
+        private void rockButton(object sender, RoutedEventArgs e)
+        {
+            Switcher.SetEvent(8);
+            Switcher.Switch(new MapDirectionsMCD());
             DispatcherTimer_Stop();
         }
     }

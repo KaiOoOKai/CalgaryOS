@@ -12,8 +12,8 @@
 
         <Image HorizontalAlignment="Left" Height="688" VerticalAlignment="Top" Width="729" Source="Images/googmap_tran.png" Margin="-24,14,-205,0"/>
         <Canvas x:Name="Canvas1" Background="Transparent" >
-            <Button Content="Train (direction) in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
-            <Button Content="Bus#x in x mins" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
+            <Button Content="Tuscany: 4 minutes" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Background="#FFFD9999"/>
+            <Button Content="SaddleTowne: 2 minutes" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="494" Margin="0,69,0,0" FontSize="40" Background="#FF99D7FD"/>
             <Image Source ="Icons/pointer_black.png" RenderTransformOrigin="0.231,0.072" Height="37" Canvas.Left="225" Canvas.Top="258" />
 
 

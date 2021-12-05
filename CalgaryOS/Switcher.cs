@@ -15,6 +15,7 @@ namespace CalgaryOS
         static int counter = 1;
         static bool english = true;
         static int direction = 0;
+        static int eventButton = 0;
         public static void Switch(UserControl newPage)
         {
             pageSwitcher.Navigate(newPage);
@@ -67,6 +68,16 @@ namespace CalgaryOS
         public static void SetDirection(int i) 
         {
             direction = i;
+        }
+
+        public static int GetEvent() 
+        {
+            return eventButton;
+        }
+        public static void SetEvent(int i) 
+        {
+            eventButton = i;
+        
         }
     }
 }
