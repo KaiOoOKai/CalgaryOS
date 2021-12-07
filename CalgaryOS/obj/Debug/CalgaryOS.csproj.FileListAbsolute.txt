@@ -243,3 +243,7 @@ C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TaxiSearchA
 C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TransitDirectionsMCD.baml
 C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\TransitSearchAfter.baml
 C:\Users\Taylor\Source\Repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.csprojAssemblyReference.cache
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\bin\Debug\CalgaryOS.exe.manifest
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\bin\Debug\CalgaryOS.application
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.exe.manifest
+C:\Users\Taylor\source\repos\KaiOoOKai\CalgaryOS\CalgaryOS\obj\Debug\CalgaryOS.application

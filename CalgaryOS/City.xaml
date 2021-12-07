@@ -57,7 +57,17 @@
             </Button.Resources>
         </Button>
 
-
+        <Button Click="emergencyClick" HorizontalAlignment="Left" Height="50" Margin="183,687,0,0" VerticalAlignment="Top" Width="155"   RenderTransformOrigin="0.322,0.474" FontSize="18" BorderThickness="3" FontFamily="Microsoft Sans Serif" Background="Red" Foreground="White" BorderBrush="Black">
+            <StackPanel Orientation="Horizontal">
+                <Image  Source="Icons/emergency.png" Height="30" Width="40" />
+                <TextBlock Text="Emergency" Width="109" Height="22" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
         <Button Content="City Information" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="494" Margin="-1,0,0,0" FontSize="40" Click="Button_Click_3" IsEnabled="False" FontWeight="Bold"/>
         <Label Content="City Phone numbers" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold" Width="452">

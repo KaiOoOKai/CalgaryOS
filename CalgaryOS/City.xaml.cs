@@ -133,5 +133,10 @@ namespace CalgaryOS
         {
             Switcher.Switch(new MapDefault());
         }
+
+        private void emergencyClick(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Emergency());
+        }
     }
 }
